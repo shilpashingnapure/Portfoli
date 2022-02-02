@@ -265,16 +265,18 @@ a{
 
 
 
-.slick-slider {
-  margin:0 -8px;
-}
-.slick-slide {
-  padding:10px;
-  background-color:red;
-  text-align:center;
-  /* margin-right:8px; */
+.slider-div{
+  width: 80%;
+  margin: auto;
 }
 
+
+.silde-div > div{
+  background-color:#00ffbb;
+  width: 95%;
+  height:500px;
+  margin: auto;
+}
 
 
 /* about */

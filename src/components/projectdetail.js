@@ -1,7 +1,9 @@
 function ProjectDetail(){
     return (
-        <div>
-            hello 
+        <div class="silde-div">
+            <div>
+                <h3>1</h3>
+            </div>
         </div>
     );
 }
