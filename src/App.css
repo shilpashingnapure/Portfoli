@@ -375,3 +375,10 @@ a{
    background-color: #00ffbb;
    border: 1px solid #fff;
  }
+
+
+ .footer{
+   border: 1px solid #fff;
+   width: 100%;
+   height: 40vh;
+ }
