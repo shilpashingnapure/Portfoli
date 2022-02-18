@@ -1,0 +1,51 @@
+.form {
+  width: 35%;
+  border: 1px solid #fff;
+  perspective: 500px;
+  height: 50vh;
+  text-align: center;
+  position: relative;
+}
+
+.form-side {
+  width: 100%;
+  height: 50vh;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.8s ease;
+}
+
+.form-front {
+  background-color: red;
+}
+.form-front form {
+  margin-top: 15%;
+}
+
+.form-back {
+  transform: rotateY(180deg);
+  background-color: yellow;
+}
+
+.form-face .form-front {
+  transform: rotateY(-180deg);
+}
+.form-face .form-back {
+  transform: rotateY(0);
+}
+
+.form input {
+  width: 60%;
+  display: block;
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.form input:focus {
+  outline: none;
+}
