@@ -18,10 +18,12 @@ function App() {
           <p class="highlight">My projects</p>
           <h2 class="head">Top Project</h2>
         </div>
-        <Toproject
-          projectdata={"forestessentialsindia"}
-          imges={["forest.gif", "1.PNG", "profile.jpg"]}
-        />
+        <div className="top_right">
+          <Toproject
+            projectdata={"forestessentialsindia"}
+            imges={["forest.gif", "1.PNG", "profile.jpg"]}
+          />
+        </div>
         <div className="top_left">
           <Toproject
             projectdata={"forestessentialsindia"}
@@ -29,10 +31,12 @@ function App() {
           />
         </div>
 
-        <Toproject
-          projectdata={"forestessentialsindia"}
-          imges={["forest.gif", "1.PNG", "profile.jpg"]}
-        />
+        <div className="top_right">
+          <Toproject
+            projectdata={"forestessentialsindia"}
+            imges={["forest.gif", "1.PNG", "profile.jpg"]}
+          />
+        </div>
         <Projects />
       </div>
 

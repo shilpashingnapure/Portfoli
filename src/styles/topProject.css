@@ -17,7 +17,9 @@
 .top_left > .top-Projects .project-imges .card {
   left: 55px;
 }
-
+.top_right > .top-Projects .project-imges .card {
+  right: 55px;
+}
 .project-imges {
   position: relative;
   width: 400px;
