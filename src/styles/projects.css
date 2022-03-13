@@ -1,0 +1,210 @@
+/*PROJECT*/
+.project_div {
+  background-color: #000;
+  height: 50vh;
+  padding: 5% 0;
+  padding-top: 10%;
+  background-image: url("http://html.lionode.com/jobado/layout/images/Parallax01.jpg");
+  background-position: 40% 52%;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.project_div::before {
+  background-color: #000;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  opacity: 0.8;
+}
+.slider-div {
+  width: 100%;
+  margin: auto;
+  position: relative;
+  /* margin-bottom: 15%; */
+  /* padding: 50px 0; */
+}
+.silde-div > div {
+  background-color: #00ffbb;
+  width: 95%;
+  height: 280px;
+  margin: auto;
+  transition: all 0.5s ease;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 5px;
+}
+
+.img--1 > div {
+  background-image: url("https://www.logo.wine/a/logo/YouTube/YouTube-Icon-Full-Color-Logo.wine.svg");
+  /* background-color: rgba(255, 255, 255, 0.8); */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--2 > div {
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/Octocat.png");
+  background-size: content;
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--3 > div {
+  background-image: url("https://cdn.worldvectorlogo.com/logos/disqus-1.svg");
+  background-size: 80% 80%;
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.silde-div > div:hover {
+  padding: 10px;
+}
+
+.slick-dots li button:before {
+  color: #fff !important;
+}
+
+.learn_more {
+  padding: 15px 20px;
+  display: inline-block;
+  background: snow;
+  border: 2px solid #000;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 13px;
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.learn_more:hover {
+  background: rgb(68, 65, 65);
+  color: #fff;
+  border: none;
+}
+
+.projectName {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  color: rgb(185, 184, 184);
+}
+.silde-div > div:hover {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.projectName > * {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  transition: all 0.5s ease;
+}
+.Projectheading p {
+  font-size: 15px;
+}
+.projectName > .Projectheading {
+  top: -50%;
+}
+
+.projectName:hover > .Projectheading {
+  top: 20%;
+}
+.projectName > .projectLearn {
+  bottom: -50%;
+}
+
+.projectName:hover > .projectLearn {
+  bottom: 25%;
+}
+.projectleft {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.project-detail {
+  width: 50%;
+  height: 90vh;
+  margin: auto;
+  margin-top: 2%;
+  border: 1px solid #fff;
+}
+.project-detail--img {
+  height: 50vh;
+  border: 1px solid #fff;
+  /* overflow: hidden; */
+}
+.project-detail--img .slick-slider {
+  height: 100%;
+}
+.project-detail--img img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+
+.project-detail--img .slick-slider .slick-next:before {
+  content: " ";
+  transform: rotate(-45deg);
+}
+.project-detail--img .slick-slider .slick-prev:before {
+  content: "";
+  transform: rotate(135deg);
+}
+.project-detail--img .slick-slider .slick-prev:before,
+.project-detail--img .slick-slider .slick-next:before {
+  font-family: auto !important;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.project-detail--img .slick-slider .slick-next {
+  right: 0px !important;
+}
+.project-detail--img .slick-slider .slick-prev {
+  left: 0px !important;
+  z-index: 55 !important;
+}
+
+.project-detail--img .slick-slider .slick-prev,
+.project-detail--img .slick-slider .slick-next {
+  top: 94% !important;
+  background-color: #00ffff !important;
+  padding: 25px !important;
+}
+
+.project-detail--description {
+  padding: 20px;
+  line-height: 40px;
+}
+.project-detail--description p {
+  height: 100px;
+}
+.project-detail--description > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project-detail--description button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: none;
+  color: #fff;
+}
+
+.project-detail--description button:first-child {
+  background-color: #00ffbb;
+}

@@ -8,9 +8,15 @@ function Navbar() {
         <div>
           <a href="#about">About</a>
         </div>
-        <div>Services</div>
-        <div>Portfolio</div>
-        <div>Contact Me</div>
+        <div>
+          <a href="#tech">Tech stack</a>
+        </div>
+        <div>
+          <a href="#projects">Portfolio</a>
+        </div>
+        <div>
+          <a href="#contact">Contact Me</a>
+        </div>
         <div class="cv">Download CV</div>
       </div>
     </div>

@@ -7,22 +7,33 @@ function Form() {
     <div className={turn ? "form form-face" : "form"}>
       <div className="form-side form-front">
         <form>
-          <input type="text" />
-          <input type="text" />
+          <label>Name:</label>
+          <input type="text" placeholder="Name" />
+          <label>Email:</label>
+          <input type="text" placeholder="Email" />
           <button
+            className="arrow-btn"
             onClick={(e) => {
               e.preventDefault();
               setturn(!turn);
             }}
           >
-            Msg
+            arrow
           </button>
         </form>
       </div>
       <div className="form-side form-back">
         <form>
           <textarea></textarea>
-          <button>Send</button>
+          <button
+            className="arrow-btn"
+            onClick={(e) => {
+              e.preventDefault();
+              setturn(!turn);
+            }}
+          >
+            arrow
+          </button>
         </form>
       </div>
     </div>

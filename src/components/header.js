@@ -13,7 +13,26 @@ function Header() {
         <button class="btn">Contact me</button>
       </div>
       <div class="avtar_img">
-        <img src={img} />
+        {/* <img src={img} alt="" /> */}
+        <iframe
+          height="300"
+          // style="width: 100%;"
+          scrolling="no"
+          title="Untitled"
+          src="https://codepen.io/shilpashingnapure/embed/abEbROq?result"
+          frameborder="no"
+          loading="lazy"
+          // allowtransparency="true"
+          // allowfullscreen="true"
+        >
+          See the Pen{" "}
+          <a href="https://codepen.io/shilpashingnapure/pen/abEbROq">
+            Untitled
+          </a>{" "}
+          by Shilpa Shingnapure (
+          <a href="https://codepen.io/shilpashingnapure">@shilpashingnapure</a>)
+          on <a href="https://codepen.io">CodePen</a>.
+        </iframe>
       </div>
     </div>
   );

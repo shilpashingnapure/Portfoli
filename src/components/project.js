@@ -1,9 +1,9 @@
-import SquareDot from "./square-dot";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { useState } from "react";
+import "../styles/projects.css";
+
 function Projects() {
   const settings = {
     className: "center",
@@ -29,37 +29,52 @@ function Projects() {
     <div class="slider-div">
       <Slider {...settings}>
         {/* PROJECT DIV 1*/}
-        <div className="silde-div">
+        <div className="silde-div img--1">
           <div className="projectName">
             <div className="Projectheading">
-              <h2>Hello</h2>
+              <h3>YouTube Clone</h3>
             </div>
             <div className="projectLearn">
-              <button onClick={() => setitem("project1")}>Learn more</button>
+              <button
+                className="learn_more"
+                onClick={() => setitem("project1")}
+              >
+                Learn more
+              </button>
             </div>
           </div>
         </div>
 
         {/* PROJECT DIV 2*/}
-        <div className="silde-div">
+        <div className="silde-div img--2">
           <div className="projectName">
             <div className="Projectheading">
-              <h2>Hello</h2>
+              <h3>Github Clone</h3>
             </div>
             <div className="projectLearn">
-              <button onClick={() => setitem("project2")}>Learn more</button>
+              <button
+                className="learn_more"
+                onClick={() => setitem("project2")}
+              >
+                Learn more
+              </button>
             </div>
           </div>
         </div>
 
         {/* PROJECT DIV 3*/}
-        <div className="silde-div">
+        <div className="silde-div img--3">
           <div className="projectName">
             <div className="Projectheading">
-              <h2>Hello</h2>
+              <h3>Disqus Clone</h3>
             </div>
             <div className="projectLearn">
-              <button onClick={() => setitem("project3")}>Learn more</button>
+              <button
+                className="learn_more"
+                onClick={() => setitem("project3")}
+              >
+                Learn more
+              </button>
             </div>
           </div>
         </div>
@@ -71,7 +86,12 @@ function Projects() {
               <h2>Hello</h2>
             </div>
             <div className="projectLearn">
-              <button onClick={() => setitem("project4")}>Learn more</button>
+              <button
+                className="learn_more"
+                onClick={() => setitem("project4")}
+              >
+                Learn more
+              </button>
             </div>
           </div>
         </div>
@@ -83,7 +103,12 @@ function Projects() {
               <h2>Hello</h2>
             </div>
             <div className="projectLearn">
-              <button onClick={() => setitem("project5")}>Learn more</button>
+              <button
+                className="learn_more"
+                onClick={() => setitem("project5")}
+              >
+                Learn more
+              </button>
             </div>
           </div>
         </div>
@@ -95,7 +120,12 @@ function Projects() {
               <h2>Hello</h2>
             </div>
             <div className="projectLearn">
-              <button onClick={() => setitem("project6")}>Learn more</button>
+              <button
+                className="learn_more"
+                onClick={() => setitem("project6")}
+              >
+                Learn more
+              </button>
             </div>
           </div>
         </div>
@@ -111,9 +141,9 @@ function Projects() {
           >
             <div className="project-detail--img">
               <Slider {...smallProject}>
-                <img src={require("../img/1.PNG")} />
-                <img src={require("../img/kem-hero.png")} />
-                <img src={require("../img/profile.jpg")} />
+                <img src={require("../img/1.PNG")} alt="" />
+                <img src={require("../img/kem-hero.png")} alt="" />
+                <img src={require("../img/profile.jpg")} alt="" />
               </Slider>
             </div>
             <div className="project-detail--description">

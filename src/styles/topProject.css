@@ -1,13 +1,17 @@
 .top-Projects {
   width: 80%;
-  height: 80vh;
+  height: 65vh;
   padding: 20px;
   margin: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   /* background: green; */
   margin-bottom: 3%;
+}
+
+.mt {
+  margin-top: 10%;
 }
 
 .top_left > .top-Projects {
@@ -20,6 +24,7 @@
 .top_right > .top-Projects .project-imges .card {
   right: 55px;
 }
+
 .project-imges {
   position: relative;
   width: 400px;

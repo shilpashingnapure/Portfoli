@@ -1,4 +1,5 @@
 import Form from "./from";
+import "../styles/footer.css";
 function Footer() {
   return (
     <div class="footer">
