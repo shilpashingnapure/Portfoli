@@ -1,7 +1,7 @@
 .top-Projects {
   width: 80%;
   height: 65vh;
-  padding: 20px;
+  padding: 2rem;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -19,23 +19,23 @@
 }
 
 .top_left > .top-Projects .project-imges .card {
-  left: 55px;
+  left: 5.5rem;
 }
 .top_right > .top-Projects .project-imges .card {
-  right: 55px;
+  right: 5.5rem;
 }
 
 .project-imges {
   position: relative;
-  width: 400px;
-  height: 200px;
-  transform: perspective(100px);
+  width: 40rem;
+  height: 20rem;
+  transform: perspective(10rem);
   transform-style: preserve-3d;
 }
 .card {
   position: absolute;
-  width: 450px;
-  height: 300px;
+  width: 45rem;
+  height: 30rem;
   background: yellow;
 }
 
@@ -67,11 +67,11 @@
     box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.2);
   }
   33.33% {
-    transform: translate3d(145px, 0, -45px);
+    transform: translate3d(14.5rem, 0, -4.5rem);
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
   }
   66.66% {
-    transform: translate3d(-145px, 0, -45px);
+    transform: translate3d(-14.5rem, 0, -4.5rem);
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
   }
 }
@@ -79,11 +79,11 @@
 @keyframes switch-2 {
   0%,
   100% {
-    transform: translate3d(145px, 0, -45px);
+    transform: translate3d(14.5rem, 0, -4.5rem);
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
   }
   33.33% {
-    transform: translate3d(-145px, 0, -45px);
+    transform: translate3d(-14.5rem, 0, -4.5rem);
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
   }
   66.66% {
@@ -95,7 +95,7 @@
 @keyframes switch-3 {
   0%,
   100% {
-    transform: translate3d(-145px, 0, -45px);
+    transform: translate3d(-14.5rem, 0, -4.5rem);
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
   }
   33.33% {
@@ -103,7 +103,41 @@
     box-shadow: 4px 8px 12px 0px rgba(0, 0, 0, 0.2);
   }
   66.66% {
-    transform: translate3d(145px, 0, -45px);
+    transform: translate3d(14.5rem, 0, -4.5rem);
     box-shadow: 2px 4px 6px 0px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* media queries*/
+
+@media screen and (max-width: 450px) {
+  .top-Projects {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .top_left > .top-Projects {
+    flex-direction: column;
+  }
+
+  .top_left > .top-Projects .project-imges .card {
+    left: 0;
+  }
+  .top_right > .top-Projects .project-imges .card {
+    right: 0;
+  }
+
+  .project-imges {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    transform: perspective(5rem);
+    transform-style: preserve-3d;
+  }
+  .card {
+    position: absolute;
+    width: 25rem;
+    height: 35rem;
+    background: yellow;
   }
 }

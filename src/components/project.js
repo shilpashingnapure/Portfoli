@@ -9,11 +9,12 @@ function Projects() {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "60px",
+    centerPadding: "6rem",
     dots: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    arrows: false,
   };
 
   const smallProject = {

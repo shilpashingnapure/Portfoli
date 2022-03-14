@@ -29,7 +29,7 @@
 .silde-div > div {
   background-color: #00ffbb;
   width: 95%;
-  height: 280px;
+  height: 28rem;
   margin: auto;
   transition: all 0.5s ease;
   background-position: center;
@@ -57,7 +57,7 @@
 }
 
 .silde-div > div:hover {
-  padding: 10px;
+  padding: 1rem;
 }
 
 .slick-dots li button:before {
@@ -65,14 +65,14 @@
 }
 
 .learn_more {
-  padding: 15px 20px;
+  padding: 1.5rem 2rem;
   display: inline-block;
   background: snow;
   border: 2px solid #000;
   border-radius: 3px;
   cursor: pointer;
   text-transform: uppercase;
-  font-size: 13px;
+  font-size: 1.3rem;
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
 }
 .learn_more:hover {
@@ -82,7 +82,7 @@
 }
 
 .projectName {
-  font-size: 30px;
+  font-size: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -92,7 +92,7 @@
 }
 .silde-div > div:hover {
   background: rgba(0, 0, 0, 0.3);
-  border-radius: 10px;
+  border-radius: 1rem;
   cursor: pointer;
 }
 .projectName > * {
@@ -102,7 +102,7 @@
   transition: all 0.5s ease;
 }
 .Projectheading p {
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 .projectName > .Projectheading {
   top: -50%;
@@ -183,15 +183,15 @@
 .project-detail--img .slick-slider .slick-next {
   top: 94% !important;
   background-color: #00ffff !important;
-  padding: 25px !important;
+  padding: 2.5rem !important;
 }
 
 .project-detail--description {
-  padding: 20px;
-  line-height: 40px;
+  padding: 2rem;
+  line-height: 4rem;
 }
 .project-detail--description p {
-  height: 100px;
+  height: 10rem;
 }
 .project-detail--description > div {
   display: flex;
@@ -199,7 +199,7 @@
 }
 
 .project-detail--description button {
-  padding: 10px 20px;
+  padding: 1rem 2rem;
   background-color: transparent;
   border: none;
   color: #fff;

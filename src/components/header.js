@@ -20,10 +20,12 @@ function Header() {
           scrolling="no"
           title="Untitled"
           src="https://codepen.io/shilpashingnapure/embed/abEbROq?result"
+          // src="https://cdpn.io/pen/debug/abEbROq?authentication_hash=XBkGRNJKDGbA"
           frameborder="no"
           loading="lazy"
+          data-default-tab="result"
           // allowtransparency="true"
-          // allowfullscreen="true"
+          allowfullscreen="true"
         >
           See the Pen{" "}
           <a href="https://codepen.io/shilpashingnapure/pen/abEbROq">
