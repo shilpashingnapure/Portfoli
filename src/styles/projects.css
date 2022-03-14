@@ -4,7 +4,7 @@
   height: 50vh;
   padding: 5% 0;
   padding-top: 10%;
-  background-image: url("http://html.lionode.com/jobado/layout/images/Parallax01.jpg");
+  background-image: url("../img/Parallax01.jpg");
   background-position: 40% 52%;
   background-attachment: fixed;
   position: relative;
@@ -65,18 +65,18 @@
 }
 
 .learn_more {
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
   display: inline-block;
-  background: snow;
-  border: 2px solid #000;
+  background: #fff;
+  border: 2px solid red;
   border-radius: 3px;
   cursor: pointer;
   text-transform: uppercase;
   font-size: 1.3rem;
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5); */
 }
 .learn_more:hover {
-  background: rgb(68, 65, 65);
+  background: red;
   color: #fff;
   border: none;
 }

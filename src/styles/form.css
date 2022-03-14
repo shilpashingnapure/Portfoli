@@ -1,7 +1,7 @@
 .form {
   margin: auto;
   width: 35%;
-  margin-bottom: 6%;
+  margin-bottom: 12%;
   perspective: 50rem;
   height: 50vh;
   /* text-align: center; */
@@ -22,8 +22,36 @@
 
 .arrow-btn {
   position: absolute;
+  border: none;
+  background: transparent;
   bottom: 3rem;
   right: 3rem;
+  cursor: pointer;
+}
+
+.left--btn.arrow-btn {
+  left: -35rem;
+  transform: rotateY(180deg);
+}
+.left--btn::before {
+  position: absolute;
+  top: 0.5rem;
+  left: 37rem;
+  border: 1px solid #aa7849;
+  content: "";
+  width: 4.6rem;
+  height: 4.6rem;
+  border-radius: 50%;
+}
+.form-face .form-front .right--btn::before {
+  position: absolute;
+  top: 0.5rem;
+  left: -0.5rem;
+  border: 1px solid #aa7849;
+  content: "";
+  width: 4.6rem;
+  height: 4.6rem;
+  border-radius: 50%;
 }
 
 .form-front {
@@ -49,6 +77,14 @@
   transform: rotateY(0);
 }
 
+.form-back textarea,
+input {
+  display: block;
+  margin: 0 auto;
+  margin-top: 4rem;
+  padding: 0.8rem;
+}
+
 .form label {
   /* border: 1px solid #fff; */
   width: 60%;
@@ -69,8 +105,26 @@
   color: snow;
 }
 
+.form-back input {
+  border: 1px solid #eee;
+  margin-top: 3rem;
+  width: 20%;
+  height: 3.5rem;
+  cursor: pointer;
+  padding: 0;
+}
+
 .form input:focus {
   outline: none;
+}
+
+textarea {
+  width: 60%;
+  height: 20vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 450px) {

@@ -12,27 +12,38 @@ function Form() {
           <label>Email:</label>
           <input type="text" placeholder="Email" />
           <button
-            className="arrow-btn"
+            className="arrow-btn right--btn"
             onClick={(e) => {
               e.preventDefault();
               setturn(!turn);
             }}
           >
-            arrow
+            <img
+              src="https://www.downloadclipart.net/medium/16161-right-arrow-clip-art.png"
+              width="46px"
+              height="46px"
+              alt=""
+            />
           </button>
         </form>
       </div>
       <div className="form-side form-back">
         <form>
-          <textarea></textarea>
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" value="Send" />
           <button
-            className="arrow-btn"
+            className="arrow-btn left--btn"
             onClick={(e) => {
               e.preventDefault();
               setturn(!turn);
             }}
           >
-            arrow
+            <img
+              src="https://www.downloadclipart.net/medium/16161-right-arrow-clip-art.png"
+              width="46px"
+              height="46px"
+              alt=""
+            />
           </button>
         </form>
       </div>

@@ -31,13 +31,13 @@ function App() {
         </div>
         <div className="top_right mt">
           <Toproject
-            projectdata={"forestessentialsindia"}
+            projectdata={"Forest Essentials India"}
             imges={["forest.gif", "1.PNG", "profile.png"]}
           />
         </div>
         <div className="top_left">
           <Toproject
-            projectdata={"forestessentialsindia"}
+            projectdata={"Theory Clone"}
             imges={["theory.png", "1.PNG", "profile.jpg"]}
           />
         </div>

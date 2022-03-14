@@ -3,7 +3,7 @@ function Toproject({ projectdata, imges }) {
   return (
     <div className="top-Projects">
       <div>
-        <h1>Forest Essentials India</h1>
+        <h1>{projectdata}</h1>
         <p>Description:</p>
         <div>Icons</div>
       </div>
