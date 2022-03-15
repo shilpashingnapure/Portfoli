@@ -69,7 +69,7 @@ function Footer() {
             <a href="https://cssbattle.dev/player/shilpa17" target="_blank">
               <img
                 class="change-my-color"
-                src="https://pixabay.com/get/g6c165fab4273b15c09b9ff4c7cdd83586b88973c94bd7128275cf7dcd9731c298b9a3651b7c9750415f95b8e5b7050f2.svg"
+                src="https://pixabay.com/get/g98d3a786c92d6e8c787f14a995cdf1ba08cb13f84b6cd9c931f0b2cd64ada515eaf68effd5a79539bf0c4bb4c8737c81.svg"
                 width="30px"
                 height="30px"
                 alt=""
