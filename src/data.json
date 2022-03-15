@@ -1,0 +1,32 @@
+[
+  {
+    "project_id": "project1",
+    "images": ["../img/1.PNG", "../img/kem-hero.png", "../img/profile.jpg"],
+    "project_title": "Yout Tube Clone",
+    "projectDetails": "Clone of you tube where user can see videos"
+  },
+  {
+    "project_id": "project2",
+    "images": ["../img/1.PNG", "../img/kem-hero.png", "../img/profile.jpg"],
+    "project_title": "Git hub clone Clone",
+    "projectDetails": "Clone of github where user can see videos"
+  },
+  {
+    "project_id": "project3",
+    "images": ["../img/1.PNG", "../img/kem-hero.png", "../img/profile.jpg"],
+    "project_title": "Git hub clone Clone",
+    "projectDetails": "Clone of github where user can see videos"
+  },
+  {
+    "project_id": "project4",
+    "images": ["../img/1.PNG", "../img/kem-hero.png", "../img/profile.jpg"],
+    "project_title": "Git hub clone Clone",
+    "projectDetails": "Clone of github where user can see videos"
+  },
+  {
+    "project_id": "project5",
+    "images": ["../img/1.PNG", "../img/kem-hero.png", "../img/profile.jpg"],
+    "project_title": "Git hub clone Clone",
+    "projectDetails": "Clone of github where user can see videos"
+  }
+]

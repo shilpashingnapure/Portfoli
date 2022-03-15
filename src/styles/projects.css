@@ -135,7 +135,10 @@
   height: 90vh;
   margin: auto;
   margin-top: 2%;
+  border-radius: 5px;
   border: 1px solid #fff;
+  background-color: #fff;
+  color: #444;
 }
 .project-detail--img {
   height: 50vh;
@@ -165,7 +168,7 @@
   position: absolute;
   top: 45%;
   left: 45%;
-  border: solid black;
+  border: solid #fff;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 3px;
@@ -182,12 +185,13 @@
 .project-detail--img .slick-slider .slick-prev,
 .project-detail--img .slick-slider .slick-next {
   top: 94% !important;
-  background-color: #00ffff !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
   padding: 2.5rem !important;
 }
 
 .project-detail--description {
   padding: 2rem;
+  border-top: 3px solid #1b242f;
   line-height: 4rem;
 }
 .project-detail--description p {
@@ -196,15 +200,31 @@
 .project-detail--description > div {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .project-detail--description button {
-  padding: 1rem 2rem;
+  padding: 0.2rem 2rem;
   background-color: transparent;
+  display: inline-block;
   border: none;
   color: #fff;
 }
 
+.close--btn {
+  flex-basis: 20%;
+  margin-right: -2rem;
+  text-align: right;
+  cursor: pointer;
+}
+
+.close--btn img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
 .project-detail--description button:first-child {
   background-color: #00ffbb;
+  height: 4rem;
 }

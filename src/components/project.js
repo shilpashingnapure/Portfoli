@@ -3,8 +3,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { useState } from "react";
 import "../styles/projects.css";
+import projects from "../data.json";
 
 function Projects() {
+  console.log(projects);
   const settings = {
     className: "center",
     centerMode: true,
@@ -26,112 +28,38 @@ function Projects() {
   };
 
   const [item, setitem] = useState(null);
+
+  const [projectData, setData] = useState({});
+
   return (
     <div class="slider-div">
       <Slider {...settings}>
-        {/* PROJECT DIV 1*/}
-        <div className="silde-div img--1">
-          <div className="projectName">
-            <div className="Projectheading">
-              <h3>YouTube Clone</h3>
+        {/* small projects*/}
+        {projects.map((project, index) => {
+          return (
+            <div className={`silde-div img--${index + 1}`}>
+              <div className="projectName">
+                <div className="Projectheading">
+                  <h3>{project.project_title}</h3>
+                </div>
+                <div className="projectLearn">
+                  <button
+                    className="learn_more"
+                    onClick={() => {
+                      setData(project);
+                      setitem(project.project_id);
+                    }}
+                  >
+                    Learn more
+                  </button>
+                </div>
+              </div>
             </div>
-            <div className="projectLearn">
-              <button
-                className="learn_more"
-                onClick={() => setitem("project1")}
-              >
-                Learn more
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* PROJECT DIV 2*/}
-        <div className="silde-div img--2">
-          <div className="projectName">
-            <div className="Projectheading">
-              <h3>Github Clone</h3>
-            </div>
-            <div className="projectLearn">
-              <button
-                className="learn_more"
-                onClick={() => setitem("project2")}
-              >
-                Learn more
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* PROJECT DIV 3*/}
-        <div className="silde-div img--3">
-          <div className="projectName">
-            <div className="Projectheading">
-              <h3>Disqus Clone</h3>
-            </div>
-            <div className="projectLearn">
-              <button
-                className="learn_more"
-                onClick={() => setitem("project3")}
-              >
-                Learn more
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* PROJECT DIV 4*/}
-        <div className="silde-div">
-          <div className="projectName">
-            <div className="Projectheading">
-              <h2>Hello</h2>
-            </div>
-            <div className="projectLearn">
-              <button
-                className="learn_more"
-                onClick={() => setitem("project4")}
-              >
-                Learn more
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* PROJECT DIV 5*/}
-        <div className="silde-div">
-          <div className="projectName">
-            <div className="Projectheading">
-              <h2>Hello</h2>
-            </div>
-            <div className="projectLearn">
-              <button
-                className="learn_more"
-                onClick={() => setitem("project5")}
-              >
-                Learn more
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* PROJECT DIV 6*/}
-        <div className="silde-div">
-          <div className="projectName">
-            <div className="Projectheading">
-              <h2>Hello</h2>
-            </div>
-            <div className="projectLearn">
-              <button
-                className="learn_more"
-                onClick={() => setitem("project6")}
-              >
-                Learn more
-              </button>
-            </div>
-          </div>
-        </div>
+          );
+        })}
       </Slider>
 
+      {/* showing specitfic project details*/}
       {item != null ? (
         <div className="projectleft">
           <div
@@ -142,19 +70,21 @@ function Projects() {
           >
             <div className="project-detail--img">
               <Slider {...smallProject}>
-                <img src={require("../img/1.PNG")} alt="" />
+                <img src={require("../img/kem-hero.png")} alt="" />
                 <img src={require("../img/kem-hero.png")} alt="" />
                 <img src={require("../img/profile.jpg")} alt="" />
               </Slider>
             </div>
             <div className="project-detail--description">
-              <h1>Project name</h1>
+              <h1>{projectData.project_title}</h1>
               <h3>project related to</h3>
               <hr />
-              <p>Project Details</p>
+              <p>{projectData.projectDetails}</p>
               <div>
                 <button>Visit Site</button>
-                <button onClick={() => setitem(null)}>X</button>
+                <button onClick={() => setitem(null)} className="close--btn">
+                  <img src="https://w7.pngwing.com/pngs/114/546/png-transparent-fish-pie-pie-chart-computer-icons-css-miscellaneous-logo-pie.png" />
+                </button>
               </div>
             </div>
           </div>

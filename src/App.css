@@ -6,6 +6,7 @@
 
 html {
   font-size: 10px;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -24,6 +25,7 @@ body {
   padding: 3px 5%;
   height: 12vh;
   background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
   color: #fff;
   position: sticky;
   top: 0;

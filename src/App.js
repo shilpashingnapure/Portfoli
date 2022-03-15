@@ -8,7 +8,7 @@ import Projects from "./components/project";
 import Footer from "./components/footer";
 function App() {
   return (
-    <div>
+    <div id="top">
       <Navbar />
       <Header />
 

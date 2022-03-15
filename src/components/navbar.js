@@ -4,7 +4,9 @@ function Navbar() {
     <div class="navbar">
       <div class="logo">S</div>
       <div class="right--nav">
-        <div class="active">Home</div>
+        <div class="active">
+          <a href="#top">Home</a>
+        </div>
         <div>
           <a href="#about">About</a>
         </div>

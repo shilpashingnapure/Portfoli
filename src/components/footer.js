@@ -16,27 +16,22 @@ function Footer() {
               target="_blank"
             >
               <img
-                src="https://uxwing.com/wp-content/themes/uxwing/download/10-brands-and-social-media/linkedin-round.png"
-                width="40px"
-                height="40px"
+                class="change-my-color"
+                src="https://www.svgrepo.com/show/128403/linkedin.svg"
+                width="30px"
+                height="30px"
                 alt=""
               />
             </a>
           </span>
           <span>
             <a href="https://github.com/shilpashingnapure" target="_blank">
-              {/* <img
-                src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
-                width="40px"
-                height="40px"
-                alt=""
-              /> */}
-
               <img
-                src="https://img.icons8.com/carbon-copy/100/ffffff/github.png"
-                width="65px"
-                height="65px"
+                src="https://www.svgrepo.com/show/325236/github.svg"
+                width="30px"
+                height="30px"
                 alt=""
+                class="change-my-color"
               />
             </a>
           </span>
@@ -46,9 +41,11 @@ function Footer() {
               target="_blank"
             >
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/HackerRank_Icon-1000px.png/480px-HackerRank_Icon-1000px.png"
-                width="40px"
-                height="40px"
+                class="change-my-color"
+                // src="https://www.svgrepo.com/show/314107/hackerrank.svg"
+                src="https://www.svgrepo.com/show/341892/hackerrank.svg"
+                width="30px"
+                height="30px"
                 alt=""
               />
             </a>
@@ -59,9 +56,10 @@ function Footer() {
               target="_blank"
             >
               <img
-                src="https://www.coderssb.com/Resources/leetcode-logo.png"
-                width="40px"
-                height="40px"
+                class="change-my-color"
+                src="https://www.svgrepo.com/show/341985/leetcode.svg"
+                width="30px"
+                height="30px"
                 alt=""
               />
             </a>
@@ -70,9 +68,10 @@ function Footer() {
           <span>
             <a href="https://cssbattle.dev/player/shilpa17" target="_blank">
               <img
-                src="https://pbs.twimg.com/profile_images/1114446136302084096/BIu19jPP_400x400.png"
-                width="40px"
-                height="40px"
+                class="change-my-color"
+                src="https://pixabay.com/get/g6c165fab4273b15c09b9ff4c7cdd83586b88973c94bd7128275cf7dcd9731c298b9a3651b7c9750415f95b8e5b7050f2.svg"
+                width="30px"
+                height="30px"
                 alt=""
               />
             </a>
@@ -80,9 +79,10 @@ function Footer() {
           <span>
             <a href="https://codepen.io/shilpashingnapure" target="_blank">
               <img
-                src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-32-512.png"
-                width="45px"
-                height="45px"
+                class="change-my-color"
+                src="https://www.svgrepo.com/show/368609/codepen.svg"
+                width="30px"
+                height="30px"
                 alt=""
               />
             </a>
@@ -99,7 +99,7 @@ function Footer() {
           <span>Shilpa Shingnapure</span>
         </div>
         <div className="topDiv">
-          <a href="/">
+          <a href="#top">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXP_IqIxI2RoBhbIlY7GnRRE6h64Wv2MrjVVWYJGQYIoh0rjT1mGeEixSHQ9pKPkJtY8U&usqp=CAU"
               alt=""
