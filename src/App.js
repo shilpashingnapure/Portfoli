@@ -38,7 +38,7 @@ function App() {
         <div className="top_left">
           <Toproject
             projectdata={"Theory Clone"}
-            imges={["theory.png", "1.PNG", "profile.jpg"]}
+            imges={["theory1.png", "theory2.png", "theory3.png"]}
           />
         </div>
 
