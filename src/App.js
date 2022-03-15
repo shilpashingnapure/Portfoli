@@ -48,6 +48,9 @@ function App() {
             imges={["forest.gif", "1.PNG", "profile.jpg"]}
           />
         </div> */}
+        <div class="stack-header" style={{ marginBottom: "35px" }}>
+          <p class="highlight">Mini Project's</p>
+        </div>
         <div className="project_div">
           <Projects />
         </div>

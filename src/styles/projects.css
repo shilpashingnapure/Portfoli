@@ -1,9 +1,9 @@
 /*PROJECT*/
 .project_div {
   background-color: #000;
-  height: 50vh;
+  height: 30vh;
   padding: 5% 0;
-  padding-top: 10%;
+  padding-top: 5%;
   background-image: url("../img/Parallax01.jpg");
   background-position: 40% 52%;
   background-attachment: fixed;
@@ -28,13 +28,13 @@
 }
 .silde-div > div {
   background-color: #00ffbb;
-  width: 95%;
-  height: 28rem;
+  width: 85%;
+  height: 20rem;
   margin: auto;
   transition: all 0.5s ease;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 70% 70%;
   border-radius: 5px;
 }
 
@@ -46,18 +46,58 @@
 
 .img--2 > div {
   background-image: url("https://github.githubassets.com/images/modules/logos_page/Octocat.png");
-  background-size: content;
+  /* background-size: content; */
   background-color: rgba(32, 50, 57, 0.15);
 }
 
 .img--3 > div {
   background-image: url("https://cdn.worldvectorlogo.com/logos/disqus-1.svg");
-  background-size: 80% 80%;
+  /* background-size: 80% 80%; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--4 > div {
+  background-image: url("https://www.svgrepo.com/show/208227/recipe.svg");
+  /* background-size: 80% 80%; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--5 > div {
+  background-image: url("https://www.wunderground.com/static/i/c/v4/30.svg");
+  /* background-size: 80% 80%; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--6 > div {
+  background-image: url("https://pixabay.com/get/g8503f43c591508b1c8408eddc478a51c8ef2f8add9d91c93c40e8fce0c249151e29226054cfbe13f3b0a26c9d014ea25.svg");
+  /* background-size: 80% 80%; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+.img--7 > div {
+  background-image: url("https://www.svgrepo.com/show/127392/search.svg");
+  /* background-size: 80% 80%; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--8 > div {
+  background-image: url("https://pixabay.com/get/g8932a9ab491b8f213b2e27a3e85866ec391666a038037633bf8103635394b2cbd809b3eb211b854b689123c07935904e.svg");
+  /* background-size: 80% 80%; */
+  background-color: rgba(32, 50, 57, 0.15);
+}
+
+.img--9 > div {
+  background-image: url("https://www.logo.wine/a/logo/McDonald's/McDonald's-Logo.wine.svg");
+  /* background-size: 80% 80%; */
   background-color: rgba(32, 50, 57, 0.15);
 }
 
 .silde-div > div:hover {
-  padding: 1rem;
+  /* padding: 1rem; */
+  outline-offset: 5px;
+  outline: 1px solid #00ffbb;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 .slick-dots li button:before {
@@ -67,18 +107,19 @@
 .learn_more {
   padding: 1rem 2rem;
   display: inline-block;
-  background: #fff;
-  border: 2px solid red;
-  border-radius: 3px;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 1px;
   cursor: pointer;
   text-transform: uppercase;
   font-size: 1.3rem;
+  color: #fff;
   /* box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5); */
 }
+
 .learn_more:hover {
-  background: red;
-  color: #fff;
-  border: none;
+  color: #00ffbb;
+  border: 1px solid #00ffbb;
 }
 
 .projectName {
@@ -101,22 +142,25 @@
   transform: translate(-50%);
   transition: all 0.5s ease;
 }
+.Projectheading h5 {
+  font-size: 2.5rem;
+}
 .Projectheading p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 .projectName > .Projectheading {
-  top: -50%;
+  top: -60%;
 }
 
 .projectName:hover > .Projectheading {
-  top: 20%;
+  top: 15%;
 }
 .projectName > .projectLearn {
-  bottom: -50%;
+  bottom: -60%;
 }
 
 .projectName:hover > .projectLearn {
-  bottom: 25%;
+  bottom: 13%;
 }
 .projectleft {
   width: 100%;
@@ -132,17 +176,18 @@
 }
 .project-detail {
   width: 50%;
-  height: 90vh;
+  height: 95vh;
   margin: auto;
-  margin-top: 2%;
-  border-radius: 5px;
+  margin-top: 1%;
+  border-radius: 3px;
   border: 1px solid #fff;
   background-color: #fff;
   color: #444;
+  backdrop-filter: blur(100px);
 }
 .project-detail--img {
-  height: 50vh;
-  border: 1px solid #fff;
+  height: 55vh;
+  /* border: 1px solid #fff; */
   /* overflow: hidden; */
 }
 .project-detail--img .slick-slider {
@@ -150,8 +195,8 @@
 }
 .project-detail--img img {
   width: 100%;
-  height: 50vh;
-  object-fit: cover;
+  height: 55vh;
+  /* object-fit: cover; */
 }
 
 .project-detail--img .slick-slider .slick-next:before {
@@ -205,7 +250,7 @@
 
 .project-detail--description button {
   padding: 0.2rem 2rem;
-  background-color: transparent;
+  /* background-color: transparent; */
   display: inline-block;
   border: none;
   color: #fff;

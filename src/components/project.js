@@ -14,7 +14,7 @@ function Projects() {
     centerPadding: "6rem",
     dots: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     arrows: false,
   };
@@ -40,7 +40,7 @@ function Projects() {
             <div className={`silde-div img--${index + 1}`}>
               <div className="projectName">
                 <div className="Projectheading">
-                  <h3>{project.project_title}</h3>
+                  <h5>{project.project_title}</h5>
                 </div>
                 <div className="projectLearn">
                   <button
@@ -70,9 +70,12 @@ function Projects() {
           >
             <div className="project-detail--img">
               <Slider {...smallProject}>
+                {/* <img src={require("../img/kem-hero.png")} alt="" />
                 <img src={require("../img/kem-hero.png")} alt="" />
-                <img src={require("../img/kem-hero.png")} alt="" />
-                <img src={require("../img/profile.jpg")} alt="" />
+                <img src={require("../img/profile.jpg")} alt="" /> */}
+                {projectData.images.map((img) => {
+                  return <img src={require("../img/" + img)} alt="" />;
+                })}
               </Slider>
             </div>
             <div className="project-detail--description">

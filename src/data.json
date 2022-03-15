@@ -1,32 +1,80 @@
 [
   {
     "project_id": "project1",
-    "images": ["../img/1.PNG", "../img/kem-hero.png", "../img/profile.jpg"],
+    "images": [
+      "projects/youtube1.JPG",
+      "projects/youtube2.JPG",
+      "projects/youtube3.JPG"
+    ],
     "project_title": "Yout Tube Clone",
     "projectDetails": "Clone of you tube where user can see videos"
   },
   {
     "project_id": "project2",
-    "images": ["../img/1.PNG", "../img/kem-hero.png", "../img/profile.jpg"],
-    "project_title": "Git hub clone Clone",
+    "images": [
+      "projects/github1.JPG",
+      "projects/github2.JPG",
+      "projects/github3.JPG"
+    ],
+    "project_title": "Github Clone",
     "projectDetails": "Clone of github where user can see videos"
   },
   {
     "project_id": "project3",
-    "images": ["../img/1.PNG", "../img/kem-hero.png", "../img/profile.jpg"],
-    "project_title": "Git hub clone Clone",
+    "images": ["projects/disqus1.JPG", "projects/disqus2.JPG"],
+    "project_title": "Disqus Clone",
     "projectDetails": "Clone of github where user can see videos"
   },
   {
     "project_id": "project4",
-    "images": ["../img/1.PNG", "../img/kem-hero.png", "../img/profile.jpg"],
-    "project_title": "Git hub clone Clone",
+    "images": [
+      "projects/recipe1.JPG",
+      "projects/recipe2.JPG",
+      "projects/recipe3.JPG"
+    ],
+    "project_title": "Food Recipe App",
     "projectDetails": "Clone of github where user can see videos"
   },
   {
     "project_id": "project5",
-    "images": ["../img/1.PNG", "../img/kem-hero.png", "../img/profile.jpg"],
-    "project_title": "Git hub clone Clone",
+    "images": ["projects/weather.JPG"],
+    "project_title": "Weather App",
+    "projectDetails": "Clone of github where user can see videos"
+  },
+  {
+    "project_id": "project6",
+    "images": ["projects/codepen1.JPG", "projects/codepen2.JPG"],
+    "project_title": "Codepen Clone",
+    "projectDetails": "Clone of github where user can see videos"
+  },
+  {
+    "project_id": "project7",
+    "images": [
+      "projects/movieapp1.JPG",
+      "projects/movieapp2.JPG",
+      "projects/movieapp3.JPG"
+    ],
+    "project_title": "Movie Search App",
+    "projectDetails": "Clone of github where user can see videos"
+  },
+  {
+    "project_id": "project8",
+    "images": [
+      "projects/tommy1.JPG",
+      "projects/tommy2.JPG",
+      "projects/tommy3.JPG"
+    ],
+    "project_title": "Tommy Hifigher",
+    "projectDetails": "Clone of github where user can see videos"
+  },
+  {
+    "project_id": "project9",
+    "images": [
+      "projects/mcdonald1.JPG",
+      "projects/mcdonald2.JPG",
+      "projects/mcdonald3.JPG"
+    ],
+    "project_title": "McDonald's App",
     "projectDetails": "Clone of github where user can see videos"
   }
 ]
