@@ -212,3 +212,21 @@
     background: yellow;
   }
 }
+
+.techStack_div {
+  display: flex;
+  gap: 1rem;
+}
+
+.tech_stack {
+  /* background-color: #fff; */
+  padding: 0.1rem;
+  width: 7%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.tech_stack img {
+  object-fit: cover;
+}

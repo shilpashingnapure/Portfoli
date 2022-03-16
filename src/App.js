@@ -32,12 +32,23 @@ function App() {
         <div className="top_right mt">
           <Toproject
             projectdata={"Forest Essentials India"}
+            techStack={["tech/html5.svg", "tech/css3.svg", "tech/js.svg"]}
             imges={["forest.gif", "1.PNG", "profile.png"]}
           />
         </div>
         <div className="top_left">
           <Toproject
             projectdata={"Theory Clone"}
+            techStack={[
+              "tech/html5.svg",
+              "tech/css3.svg",
+              "tech/js.svg",
+              "tech/express.svg",
+              "tech/node.svg",
+              "tech/mongo.svg",
+              "tech/postman.svg",
+              "tech/heroku.svg",
+            ]}
             imges={["theory1.png", "theory2.png", "theory3.png"]}
           />
         </div>

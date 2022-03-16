@@ -1,11 +1,24 @@
 import "../styles/topProject.css";
-function Toproject({ projectdata, imges }) {
+function Toproject({ projectdata, techStack, imges }) {
   return (
     <div className="top-Projects">
       <div>
         <h1>{projectdata}</h1>
         <p>Description:</p>
-        <div>Icons</div>
+        <div className="techStack_div">
+          {techStack.map((img) => {
+            return (
+              <div className="tech_stack">
+                <img
+                  src={require("../img/" + img)}
+                  alt=""
+                  width="35px"
+                  height="35px"
+                />
+              </div>
+            );
+          })}
+        </div>
       </div>
       <div className="project-imges">
         <div

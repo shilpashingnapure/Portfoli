@@ -73,7 +73,7 @@
 }
 
 .container__image:hover .container__info {
-  transform: translate3d(-60%, 0px, 0px);
+  transform: translate3d(-100%, 0px, 0px);
   opacity: 1;
 }
 

@@ -180,10 +180,12 @@
   margin: auto;
   margin-top: 1%;
   border-radius: 3px;
-  border: 1px solid #fff;
-  background-color: #fff;
-  color: #444;
+  /* border: 1px solid #fff; */
+  background-color: #f8f8f8;
+  color: #333;
   backdrop-filter: blur(100px);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .project-detail--img {
   height: 55vh;
@@ -239,9 +241,9 @@
   border-top: 3px solid #1b242f;
   line-height: 4rem;
 }
-.project-detail--description p {
+/* .project-detail--description p {
   height: 10rem;
-}
+} */
 .project-detail--description > div {
   display: flex;
   justify-content: space-between;

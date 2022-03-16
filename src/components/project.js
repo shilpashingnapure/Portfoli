@@ -83,6 +83,16 @@ function Projects() {
               <h3>project related to</h3>
               <hr />
               <p>{projectData.projectDetails}</p>
+              {projectData.tech_stack.map((img) => {
+                return (
+                  <img
+                    src={require("../img/" + img)}
+                    width="20px"
+                    height="20px"
+                    alt=""
+                  />
+                );
+              })}
               <div>
                 <a
                   href={projectData.project_live}
