@@ -84,9 +84,18 @@ function Projects() {
               <hr />
               <p>{projectData.projectDetails}</p>
               <div>
-                <button>Visit Site</button>
+                <a
+                  href={projectData.project_live}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Site
+                </a>
                 <button onClick={() => setitem(null)} className="close--btn">
-                  <img src="https://w7.pngwing.com/pngs/114/546/png-transparent-fish-pie-pie-chart-computer-icons-css-miscellaneous-logo-pie.png" />
+                  <img
+                    src="https://w7.pngwing.com/pngs/114/546/png-transparent-fish-pie-pie-chart-computer-icons-css-miscellaneous-logo-pie.png"
+                    alt=""
+                  />
                 </button>
               </div>
             </div>

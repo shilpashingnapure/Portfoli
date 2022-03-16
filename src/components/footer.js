@@ -1,5 +1,6 @@
 import Form from "./from";
 import "../styles/footer.css";
+import icon from "../img/cssbattle.svg";
 function Footer() {
   return (
     <div class="footer">
@@ -14,6 +15,7 @@ function Footer() {
             <a
               href="https://www.linkedin.com/in/shilpa-shingnapure/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 class="change-my-color"
@@ -25,7 +27,11 @@ function Footer() {
             </a>
           </span>
           <span>
-            <a href="https://github.com/shilpashingnapure" target="_blank">
+            <a
+              href="https://github.com/shilpashingnapure"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 src="https://www.svgrepo.com/show/325236/github.svg"
                 width="30px"
@@ -39,6 +45,7 @@ function Footer() {
             <a
               href="https://www.hackerrank.com/shingnapureshil1"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 class="change-my-color"
@@ -54,6 +61,7 @@ function Footer() {
             <a
               href="https://leetcode.com/shingnapure_shilpa17/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <img
                 class="change-my-color"
@@ -66,10 +74,14 @@ function Footer() {
           </span>
 
           <span>
-            <a href="https://cssbattle.dev/player/shilpa17" target="_blank">
+            <a
+              href="https://cssbattle.dev/player/shilpa17"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 class="change-my-color"
-                src="https://pixabay.com/get/g98d3a786c92d6e8c787f14a995cdf1ba08cb13f84b6cd9c931f0b2cd64ada515eaf68effd5a79539bf0c4bb4c8737c81.svg"
+                src={icon}
                 width="30px"
                 height="30px"
                 alt=""
@@ -77,7 +89,11 @@ function Footer() {
             </a>
           </span>
           <span>
-            <a href="https://codepen.io/shilpashingnapure" target="_blank">
+            <a
+              href="https://codepen.io/shilpashingnapure"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img
                 class="change-my-color"
                 src="https://www.svgrepo.com/show/368609/codepen.svg"

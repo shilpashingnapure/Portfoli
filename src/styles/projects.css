@@ -69,7 +69,7 @@
 }
 
 .img--6 > div {
-  background-image: url("https://pixabay.com/get/g8503f43c591508b1c8408eddc478a51c8ef2f8add9d91c93c40e8fce0c249151e29226054cfbe13f3b0a26c9d014ea25.svg");
+  background-image: url("../img/codepen.svg");
   /* background-size: 80% 80%; */
   background-color: rgba(32, 50, 57, 0.15);
 }
@@ -80,7 +80,7 @@
 }
 
 .img--8 > div {
-  background-image: url("https://pixabay.com/get/g8932a9ab491b8f213b2e27a3e85866ec391666a038037633bf8103635394b2cbd809b3eb211b854b689123c07935904e.svg");
+  background-image: url("../img/tommy.svg");
   /* background-size: 80% 80%; */
   background-color: rgba(32, 50, 57, 0.15);
 }
@@ -269,7 +269,8 @@
   object-fit: contain;
 }
 
-.project-detail--description button:first-child {
+.project-detail--description a {
   background-color: #00ffbb;
+  padding: 0.2rem 0.8rem;
   height: 4rem;
 }

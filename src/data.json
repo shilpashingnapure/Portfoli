@@ -7,6 +7,7 @@
       "projects/youtube3.JPG"
     ],
     "project_title": "Yout Tube Clone",
+    "project_live": "https://shilpashingnapure.github.io/youtube-clone/",
     "projectDetails": "Clone of you tube where user can see videos"
   },
   {
@@ -17,12 +18,14 @@
       "projects/github3.JPG"
     ],
     "project_title": "Github Clone",
+    "project_live": "https://shilpashingnapure.github.io/Github-clone/",
     "projectDetails": "Clone of github where user can see videos"
   },
   {
     "project_id": "project3",
     "images": ["projects/disqus1.JPG", "projects/disqus2.JPG"],
     "project_title": "Disqus Clone",
+    "project_live": "http://disqus.epizy.com/",
     "projectDetails": "Clone of github where user can see videos"
   },
   {
@@ -33,18 +36,21 @@
       "projects/recipe3.JPG"
     ],
     "project_title": "Food Recipe App",
+    "project_live": "https://shilpashingnapure.github.io/Simple-recipe-Website/",
     "projectDetails": "Clone of github where user can see videos"
   },
   {
     "project_id": "project5",
     "images": ["projects/weather.JPG"],
     "project_title": "Weather App",
+    "project_live": "https://shilpashingnapure.github.io/simple-wheather-app/",
     "projectDetails": "Clone of github where user can see videos"
   },
   {
     "project_id": "project6",
     "images": ["projects/codepen1.JPG", "projects/codepen2.JPG"],
     "project_title": "Codepen Clone",
+    "project_live": "https://pencode.netlify.app/",
     "projectDetails": "Clone of github where user can see videos"
   },
   {
@@ -55,6 +61,7 @@
       "projects/movieapp3.JPG"
     ],
     "project_title": "Movie Search App",
+    "project_live": "https://shilpashingnapure.github.io/movie-search-app/",
     "projectDetails": "Clone of github where user can see videos"
   },
   {
@@ -65,6 +72,7 @@
       "projects/tommy3.JPG"
     ],
     "project_title": "Tommy Hifigher",
+    "project_live": "https://tommyhilfigerclone.netlify.app/",
     "projectDetails": "Clone of github where user can see videos"
   },
   {
@@ -75,6 +83,7 @@
       "projects/mcdonald3.JPG"
     ],
     "project_title": "McDonald's App",
+    "project_live": "https://shilpashingnapure.github.io/mc-donalds/",
     "projectDetails": "Clone of github where user can see videos"
   }
 ]
