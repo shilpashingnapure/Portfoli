@@ -31,7 +31,10 @@ function App() {
         </div>
         <div className="top_right mt">
           <Toproject
-            projectdata={"Forest Essentials India"}
+            projectdata={"Forest Essentials India Clone"}
+            description={
+              "Forest Essentials is an Indian cosmetics, skincare and perfume company that specialises in Ayurvedic preparations for its products. Our project we implement front-end only. Additionally we use rapidapi to fetch the products. Team of 6 Members. "
+            }
             techStack={["tech/html5.svg", "tech/css3.svg", "tech/js.svg"]}
             imges={["forest.gif", "1.PNG", "profile.png"]}
           />
@@ -39,6 +42,9 @@ function App() {
         <div className="top_left">
           <Toproject
             projectdata={"Theory Clone"}
+            description={
+              "New York fashion brand “Theory” is based on women’s and men’s contemporary fashion label. We tried to implement E-commerce functionalities product database, Add to cart, search, Authorization, Payment, OTP verification using Gmail API, etc. Team of 5 members."
+            }
             techStack={[
               "tech/html5.svg",
               "tech/css3.svg",

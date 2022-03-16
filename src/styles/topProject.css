@@ -212,6 +212,10 @@
     background: yellow;
   }
 }
+.top-Projects p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
 .techStack_div {
   display: flex;
@@ -225,8 +229,26 @@
   height: 5vh;
   display: flex;
   align-items: center;
+  margin-top: 1%;
 }
 
 .tech_stack img {
   object-fit: cover;
+}
+
+.close--btnn {
+  flex-basis: 40%;
+  margin-top: 3%;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.close--btnn img {
+  width: 20%;
+  height: 30%;
+}
+
+.change-my-color {
+  filter: brightness(102%) invert(77%);
 }

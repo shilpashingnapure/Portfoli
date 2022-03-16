@@ -1,10 +1,10 @@
 import "../styles/topProject.css";
-function Toproject({ projectdata, techStack, imges }) {
+function Toproject({ projectdata, description, techStack, imges }) {
   return (
     <div className="top-Projects">
       <div>
         <h1>{projectdata}</h1>
-        <p>Description:</p>
+        <p>{description} </p>
         <div className="techStack_div">
           {techStack.map((img) => {
             return (
@@ -14,12 +14,27 @@ function Toproject({ projectdata, techStack, imges }) {
                   alt=""
                   width="35px"
                   height="35px"
+                  class="change-my-color"
                 />
               </div>
             );
           })}
         </div>
+        <div>
+          <a
+            href="https://shilpashingnapure.github.io/forestessentialsindia/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button class="close--btnn" role="button">
+              {" "}
+              <img src="https://www.svgrepo.com/show/379221/open-in-new.svg" />
+              Visit Now
+            </button>
+          </a>
+        </div>
       </div>
+
       <div className="project-imges">
         <div
           className="card img-1"
