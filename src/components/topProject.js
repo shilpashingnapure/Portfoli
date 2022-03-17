@@ -21,17 +21,45 @@ function Toproject({ projectdata, description, techStack, imges }) {
           })}
         </div>
         <div>
-          <a
-            href="https://shilpashingnapure.github.io/forestessentialsindia/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <button class="close--btnn" role="button">
-              {" "}
-              <img src="https://www.svgrepo.com/show/379221/open-in-new.svg" />
-              Visit Now
-            </button>
-          </a>
+          <div className="btn--live">
+            <a
+              href="https://shilpashingnapure.github.io/forestessentialsindia/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://www.svgrepo.com/show/379221/open-in-new.svg"
+                alt=""
+              />
+              <span>Visit Now</span>
+            </a>
+          </div>
+          <div className="btn--live">
+            <a
+              href="https://shilpashingnapure.github.io/forestessentialsindia/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://www.svgrepo.com/show/325236/github.svg"
+                alt=""
+              />
+              <span>Github</span>
+            </a>
+          </div>
+          <div className="btn--live">
+            <a
+              href="https://shilpashingnapure.github.io/forestessentialsindia/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://toppng.com/uploads/preview/video-play-comments-play-button-vhs-11562922969vxik7fqhwo.png"
+                alt=""
+              />
+              <span>Demo</span>
+            </a>
+          </div>
         </div>
       </div>
 

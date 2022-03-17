@@ -51,7 +51,7 @@
   height: 10rem;
   position: absolute;
   border-radius: 5rem;
-  background-color: rgba(44, 44, 44, 0.3);
+  background-color: rgba(44, 44, 44, 0.1);
 }
 .tech img {
   width: 60%;

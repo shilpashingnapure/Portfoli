@@ -4,9 +4,18 @@
   padding: 0;
 }
 
-html {
+html,
+body {
   font-size: 10px;
   scroll-behavior: smooth;
+}
+
+/* big size screen */
+@media screen and (min-width: 2560px) {
+  html,
+  body {
+    font-size: 18px;
+  }
 }
 body {
   margin: 0;
@@ -22,8 +31,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3px 5%;
-  height: 12vh;
+  padding: 3px 5rem;
+  height: 8rem;
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(5px);
   color: #fff;
@@ -32,15 +41,24 @@ body {
   z-index: 99;
 }
 .logo {
-  flex-basis: 40%;
+  flex-basis: 40rem;
   padding-left: 1.5rem;
 }
 .right--nav {
   display: flex;
   align-items: center;
   flex: 1;
-  gap: 6%;
+  gap: 5rem;
   font-family: "Red Hat Display", sans-serif;
+}
+
+/* big size screen */
+@media screen and (min-width: 2560px) {
+  .right--nav {
+    justify-content: space-around;
+    flex: none;
+    flex-basis: 80rem;
+  }
 }
 
 .cv {
@@ -59,9 +77,9 @@ a {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 0 7%;
-  padding-bottom: 5%;
-  padding-top: 5%;
+  padding: 0 7rem;
+  padding-bottom: 5rem;
+  padding-top: 5rem;
   background-color: #212121;
 }
 
@@ -97,7 +115,7 @@ iframe {
   border-radius: 3rem;
   width: 19rem;
   display: inline-block;
-  margin-top: 5%;
+  margin-top: 5rem;
   background-color: #00ffbb;
   font-size: 1.6rem;
   border: none;
@@ -113,7 +131,7 @@ iframe {
 }
 
 .stack-header .highlight::after {
-  width: 3%;
+  width: 3rem;
 }
 
 .head {

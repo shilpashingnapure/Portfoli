@@ -213,13 +213,20 @@
   }
 }
 .top-Projects p {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 2.5rem;
+  color: #8f9094;
 }
 
 .techStack_div {
   display: flex;
   gap: 1rem;
+}
+
+.techStack_div + div {
+  display: flex;
+  gap: 1.5rem;
 }
 
 .tech_stack {
@@ -237,23 +244,26 @@
   object-fit: cover;
 }
 
-.close--btnn {
-  flex-basis: 40%;
-  margin-top: 3%;
+.btn--live {
+  border: 1px solid #f1d38d;
+  display: inline-block;
+  padding: 0.8rem;
+  margin-top: 2rem;
+}
+
+.btn--live img {
+  width: 2rem;
+  height: 2rem;
+  filter: invert(92%) sepia(17%) saturate(1092%) hue-rotate(332deg)
+    brightness(100%) contrast(90%);
+}
+.btn--live > a {
+  display: flex;
+  gap: 0.8rem;
+  color: #f1d38d;
   align-items: center;
-  text-align: center;
-  cursor: pointer;
 }
-
-.close--btnn img {
-  width: 20%;
-  height: 30%;
-}
-
 .change-color {
-  /* filter: invert(80%) sepia(36%) saturate(324%) hue-rotate(352deg)
-    brightness(88%) contrast(92%); */
-
-  filter: invert(100%) sepia(32%) saturate(4443%) hue-rotate(305deg)
-    brightness(99%) contrast(81%);
+  filter: invert(90%) sepia(63%) saturate(972%) hue-rotate(4deg) brightness(98%)
+    contrast(83%);
 }

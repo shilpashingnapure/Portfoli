@@ -35,7 +35,12 @@ function App() {
             description={
               "Forest Essentials is an Indian cosmetics, skincare and perfume company that specialises in Ayurvedic preparations for its products. Our project we implement front-end only. Additionally we use rapidapi to fetch the products. Team of 6 Members. "
             }
-            techStack={["tech/html5.svg", "tech/css3.svg", "tech/js.svg"]}
+            techStack={[
+              // "tech/html5.svg", "tech/css3.svg", "tech/js.svg"
+              "tech/html_img.png",
+              "tech/css.png",
+              "tech/js.jpg",
+            ]}
             imges={["forest.gif", "1.PNG", "profile.png"]}
           />
         </div>
@@ -46,14 +51,21 @@ function App() {
               "New York fashion brand “Theory” is based on women’s and men’s contemporary fashion label. We tried to implement E-commerce functionalities product database, Add to cart, search, Authorization, Payment, OTP verification using Gmail API, etc. Team of 5 members."
             }
             techStack={[
-              "tech/html5.svg",
-              "tech/css3.svg",
-              "tech/js.svg",
-              "tech/express.svg",
-              "tech/node.svg",
-              "tech/mongo.svg",
-              "tech/postman.svg",
-              "tech/heroku.svg",
+              // "tech/html5.svg",
+              // "tech/css3.svg",
+              // "tech/js.svg",
+              // "tech/express.svg",
+              // "tech/node.svg",
+              // "tech/mongo.svg",
+              // "tech/postman.svg",
+              // "tech/heroku.svg",
+              "tech/html_img.png",
+              "tech/css.png",
+              "tech/js.jpg",
+              "tech/express.png",
+              "tech/node.webp",
+              "tech/mongo.png",
+              "tech/postman.png",
             ]}
             imges={["theory1.png", "theory2.png", "theory3.png"]}
           />
