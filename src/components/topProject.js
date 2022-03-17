@@ -1,4 +1,5 @@
 import "../styles/topProject.css";
+import play from "../img/play.svg";
 function Toproject({ projectdata, description, techStack, imges }) {
   return (
     <div className="top-Projects">
@@ -53,10 +54,7 @@ function Toproject({ projectdata, description, techStack, imges }) {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                src="https://toppng.com/uploads/preview/video-play-comments-play-button-vhs-11562922969vxik7fqhwo.png"
-                alt=""
-              />
+              <img src={play} alt="" />
               <span>Demo</span>
             </a>
           </div>

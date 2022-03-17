@@ -5,8 +5,18 @@ import { useState } from "react";
 import "../styles/projects.css";
 import projects from "../data.json";
 
+function SampleNextArrow(props) {
+  const { onClick } = props;
+  return <div className={"next-arrow"} onClick={onClick} />;
+}
+
+function SamplePrevArrow(props) {
+  const { onClick } = props;
+  return <div className={"prev-arrow"} onClick={onClick} />;
+}
+
 function Projects() {
-  console.log(projects);
+  // console.log(projects);
   const settings = {
     className: "center",
     centerMode: true,
@@ -16,7 +26,8 @@ function Projects() {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    arrows: false,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
 
   const smallProject = {
@@ -87,9 +98,10 @@ function Projects() {
                 return (
                   <img
                     src={require("../img/" + img)}
-                    width="20px"
-                    height="20px"
+                    width="25px"
+                    height="25px"
                     alt=""
+                    class="change-color"
                   />
                 );
               })}
@@ -99,8 +111,13 @@ function Projects() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Visit Site
+                  <img
+                    src="https://www.svgrepo.com/show/379221/open-in-new.svg"
+                    alt=""
+                  />
+                  <span>Visit Site</span>
                 </a>
+
                 <button onClick={() => setitem(null)} className="close--btn">
                   <img
                     src="https://w7.pngwing.com/pngs/114/546/png-transparent-fish-pie-pie-chart-computer-icons-css-miscellaneous-logo-pie.png"

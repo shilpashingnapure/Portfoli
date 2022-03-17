@@ -31,7 +31,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3px 5rem;
+  padding: 0px 5rem;
   height: 8rem;
   background-color: rgba(0, 0, 0, 0.7);
   backdrop-filter: blur(5px);
@@ -41,13 +41,12 @@ body {
   z-index: 99;
 }
 .logo {
-  flex-basis: 40rem;
+  flex-basis: 50rem;
   padding-left: 1.5rem;
 }
 .right--nav {
   display: flex;
   align-items: center;
-  flex: 1;
   gap: 5rem;
   font-family: "Red Hat Display", sans-serif;
 }
