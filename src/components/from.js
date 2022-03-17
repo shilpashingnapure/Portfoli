@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import icon from "../img/arrow.svg";
 import "../styles/form.css";
 function Form() {
   const [turn, setturn] = useState(false);
@@ -18,12 +19,7 @@ function Form() {
               setturn(!turn);
             }}
           >
-            <img
-              src="https://www.downloadclipart.net/medium/16161-right-arrow-clip-art.png"
-              width="46px"
-              height="46px"
-              alt=""
-            />
+            <img src={icon} width="46px" height="46px" alt="" />
           </button>
         </form>
       </div>
@@ -38,12 +34,7 @@ function Form() {
               setturn(!turn);
             }}
           >
-            <img
-              src="https://www.downloadclipart.net/medium/16161-right-arrow-clip-art.png"
-              width="46px"
-              height="46px"
-              alt=""
-            />
+            <img src={icon} width="46px" height="46px" alt="" />
           </button>
         </form>
       </div>
