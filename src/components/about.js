@@ -10,19 +10,19 @@ function About() {
             href="https://instagram.com/silvia.diaconescu"
             target="_blank"
           >
-            Silvia Diaconescu
+            Shilpa Shingnapure
           </a> */}
         </div>
         <div class="container__info container__location">
           <p>
+            I am <em></em>
             <a href="" class="link">
-              I am Shilpa
+              Shilpa Shingnapure
             </a>{" "}
-            , Team-oriented and self-motivated, hardworking aspiring full-stack
-            web developer with in-depth knowledge of frontend. Looking forward
-            to obtain a challenging position at prestigious company like Google
-            FAANG that will expand my learning and build upon my developer
-            skills.
+            , self-motivated, hardworking aspiring full-stack web developer with
+            in-depth knowledge of frontend. I love to build websites/application
+            that serves the world. <br></br>and always want to enhance my
+            knowledge & adpot new technologies that make impact on people.
           </p>
         </div>
       </div>

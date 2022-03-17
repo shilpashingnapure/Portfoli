@@ -14,7 +14,7 @@ function Toproject({ projectdata, description, techStack, imges }) {
                   alt=""
                   width="35px"
                   height="35px"
-                  class="change-my-color"
+                  class="change-color"
                 />
               </div>
             );
