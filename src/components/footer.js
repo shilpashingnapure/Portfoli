@@ -3,13 +3,13 @@ import "../styles/footer.css";
 import icon from "../img/cssbattle.svg";
 function Footer() {
   return (
-    <div class="footer">
-      <div class="stack-header">
-        <p class="highlight">To connect with me</p>
-        <h2 class="head">Contact me</h2>
+    <div className="footer">
+      <div className="stack-header">
+        <p className="highlight">To connect with me</p>
+        <h2 className="head">Contact me</h2>
       </div>
       <Form />
-      <div class="footer__div">
+      <div className="footer__div">
         <div>
           <span>
             <a
@@ -18,7 +18,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                class="change-my-color"
+                className="change-my-color"
                 src="https://www.svgrepo.com/show/128403/linkedin.svg"
                 width="30px"
                 height="30px"
@@ -37,7 +37,7 @@ function Footer() {
                 width="30px"
                 height="30px"
                 alt=""
-                class="change-my-color"
+                className="change-my-color"
               />
             </a>
           </span>
@@ -48,7 +48,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                class="change-my-color"
+                className="change-my-color"
                 // src="https://www.svgrepo.com/show/314107/hackerrank.svg"
                 src="https://www.svgrepo.com/show/341892/hackerrank.svg"
                 width="30px"
@@ -64,7 +64,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                class="change-my-color"
+                className="change-my-color"
                 src="https://www.svgrepo.com/show/341985/leetcode.svg"
                 width="30px"
                 height="30px"
@@ -80,7 +80,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                class="change-my-color"
+                className="change-my-color"
                 src={icon}
                 width="30px"
                 height="30px"
@@ -95,7 +95,7 @@ function Footer() {
               rel="noopener noreferrer"
             >
               <img
-                class="change-my-color"
+                className="change-my-color"
                 src="https://www.svgrepo.com/show/368609/codepen.svg"
                 width="30px"
                 height="30px"
@@ -104,7 +104,7 @@ function Footer() {
             </a>
           </span>
         </div>
-        <div class="credit">
+        <div className="credit">
           <span>Made by</span>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png"

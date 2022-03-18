@@ -1,18 +1,17 @@
-import img from "../img/kem-hero.png";
 function Header() {
   return (
-    <div class="header">
-      <div class="header--div1">
-        <p class="header-hi">Hi there </p>
-        <h1 class="header--name">Shilpa Shingnapure</h1>
-        <h3 class="header--work">FULL STACK WEB DEVELOPER </h3>
+    <div className="header">
+      <div className="header--div1">
+        <p className="header-hi">Hi there </p>
+        <h1 className="header--name">Shilpa Shingnapure</h1>
+        <h3 className="header--work">FULL STACK WEB DEVELOPER </h3>
         <p>
           I’m a professional UI/UX designer with front end <br />
           development skills based in Lagos.
         </p>
-        <button class="btn">Contact me</button>
+        <button className="btn">Contact me</button>
       </div>
-      <div class="avtar_img">
+      <div className="avtar_img">
         {/* <img src={img} alt="" /> */}
         <iframe
           height="300"
@@ -21,11 +20,11 @@ function Header() {
           title="Untitled"
           src="https://codepen.io/shilpashingnapure/embed/abEbROq?result"
           // src="https://cdpn.io/pen/debug/abEbROq?authentication_hash=yPkJjbdKGaEk"
-          frameborder="no"
+          frameBorder="no"
           loading="lazy"
           data-default-tab="result"
           // allowtransparency="true"
-          allowfullscreen="true"
+          allowFullScreen={true}
         >
           See the Pen{" "}
           <a href="https://codepen.io/shilpashingnapure/pen/abEbROq">

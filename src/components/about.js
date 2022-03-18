@@ -1,9 +1,9 @@
 import "../styles/about.css";
 function About() {
   return (
-    <div class="container">
-      <div class="container__image">
-        <div class="container__info container__author">
+    <div className="container">
+      <div className="container__image">
+        <div className="container__info container__author">
           Hi There!,
           {/* <a
             class="link"
@@ -13,10 +13,10 @@ function About() {
             Shilpa Shingnapure
           </a> */}
         </div>
-        <div class="container__info container__location">
+        <div className="container__info container__location">
           <p>
             I am <em></em>
-            <a href="" class="link">
+            <a href="https://instagram.com/silvia.diaconescu" className="link">
               Shilpa Shingnapure
             </a>{" "}
             , self-motivated, hardworking aspiring full-stack web developer with

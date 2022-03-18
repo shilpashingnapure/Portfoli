@@ -1,8 +1,8 @@
 import "../App.css";
 function Navbar() {
   return (
-    <div class="navbar">
-      <div class="logo">
+    <div className="navbar">
+      <div className="logo">
         <img
           src="https://images-platform.99static.com//X5kQtzlPzvORSXwLJ9Pn-iHRkbc=/180x1161:823x1803/fit-in/500x500/99designs-contests-attachments/61/61431/attachment_61431386"
           width="50px"
@@ -11,8 +11,8 @@ function Navbar() {
           style={{ borderRadius: "50%" }}
         />
       </div>
-      <div class="right--nav">
-        <div class="active">
+      <div className="right--nav">
+        <div className="active">
           <a href="#top">Home</a>
         </div>
         <div>
@@ -27,7 +27,7 @@ function Navbar() {
         <div>
           <a href="#contact">Contact Me</a>
         </div>
-        <div class="cv">Resume</div>
+        <div className="cv">Resume</div>
       </div>
     </div>
   );

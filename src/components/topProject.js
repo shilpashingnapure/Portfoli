@@ -7,15 +7,15 @@ function Toproject({ projectdata, description, techStack, imges }) {
         <h1>{projectdata}</h1>
         <p>{description} </p>
         <div className="techStack_div">
-          {techStack.map((img) => {
+          {techStack.map((img, index) => {
             return (
-              <div className="tech_stack">
+              <div className="tech_stack" key={index}>
                 <img
                   src={require("../img/" + img)}
                   alt=""
                   width="35px"
                   height="35px"
-                  class="change-color"
+                  className="change-color"
                 />
               </div>
             );

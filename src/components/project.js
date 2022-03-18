@@ -43,12 +43,15 @@ function Projects() {
   const [projectData, setData] = useState({});
 
   return (
-    <div class="slider-div">
+    <div className="slider-div">
       <Slider {...settings}>
         {/* small projects*/}
         {projects.map((project, index) => {
           return (
-            <div className={`silde-div img--${index + 1}`}>
+            <div
+              key={project.project_id}
+              className={`silde-div img--${index + 1}`}
+            >
               <div className="projectName">
                 <div className="Projectheading">
                   <h5>{project.project_title}</h5>
@@ -101,7 +104,7 @@ function Projects() {
                     width="25px"
                     height="25px"
                     alt=""
-                    class="change-color"
+                    className="change-color"
                   />
                 );
               })}
