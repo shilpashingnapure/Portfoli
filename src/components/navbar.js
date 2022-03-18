@@ -2,6 +2,7 @@ import "../App.css";
 import { useState } from "react";
 function Navbar() {
   const [toggle, settoggle] = useState(false);
+  const [small, setsmall] = useState("");
   return (
     <div className="navbar">
       <div className="logo">
@@ -17,6 +18,7 @@ function Navbar() {
         className="menu_toggle"
         onClick={() => {
           settoggle(!toggle);
+          setsmall("small");
         }}
       >
         <img
@@ -25,23 +27,50 @@ function Navbar() {
           height="50px"
         />
       </div>
-      <div className={toggle ? "small_nav right--nav" : "right--nav"}>
-        <div className="active">
+      <div
+        className={
+          toggle && small === "small" ? "small_nav right--nav" : "right--nav"
+        }
+      >
+        <div
+          className="active"
+          onClick={() => {
+            settoggle(!toggle);
+          }}
+        >
           <a href="#top">Home</a>
         </div>
-        <div>
+        <div
+          onClick={() => {
+            settoggle(!toggle);
+          }}
+        >
           <a href="#about">About</a>
         </div>
-        <div>
+        <div
+          onClick={() => {
+            settoggle(!toggle);
+          }}
+        >
           <a href="#tech">Tech stack</a>
         </div>
-        <div>
+        <div
+          onClick={() => {
+            settoggle(!toggle);
+          }}
+        >
           <a href="#projects">Portfolio</a>
         </div>
-        <div>
+        <div
+          onClick={() => {
+            settoggle(!toggle);
+          }}
+        >
           <a href="#contact">Contact Me</a>
         </div>
-        <div className="cv">Resume</div>
+        <div className="cv">
+          <a href="">Resume</a>
+        </div>
       </div>
     </div>
   );
