@@ -90,3 +90,45 @@
   background-color: #06c0a8;
   color: #ffffff;
 }
+
+/* about Small Screen */
+
+@media screen and (max-width: 450px) {
+  #about {
+    width: 100%;
+    height: 10rem !important;
+    margin-top: 6rem;
+  }
+  .container {
+    overflow: visible;
+    height: 50rem;
+  }
+
+  .container__image:before {
+    display: none;
+  }
+
+  .container__image:hover {
+    width: 35rem;
+    height: 40rem;
+    right: 0;
+    box-shadow: none;
+  }
+  .container__image:hover .container__info {
+    transform: translate3d(0px, 0px, 0px);
+    opacity: 1;
+  }
+
+  .container__image {
+    width: 35rem;
+    height: 40rem;
+    /* top: -20rem; */
+    border-radius: 0px;
+    display: block;
+  }
+
+  .container__info {
+    opacity: 1;
+    bottom: -42rem;
+  }
+}

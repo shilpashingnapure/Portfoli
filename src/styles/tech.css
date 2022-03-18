@@ -66,3 +66,24 @@
 .tech:hover::after {
   background-color: rgba(0, 0, 0, 0);
 }
+
+/* about Small Screen */
+
+@media screen and (max-width: 450px) {
+  .stack {
+    flex-direction: column;
+    width: 100%;
+  }
+  .tech {
+    margin: 1rem;
+  }
+  .front-back {
+    margin-bottom: 1rem;
+  }
+  .tech-list {
+    margin-top: 6%;
+  }
+  .tech-list > div {
+    margin-bottom: 1.5rem;
+  }
+}

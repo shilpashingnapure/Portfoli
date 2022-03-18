@@ -181,7 +181,7 @@
 
 /* media queries*/
 
-@media screen and (max-width: 450px) {
+/* @media screen and (max-width: 450px) {
   .top-Projects {
     width: 100%;
     flex-direction: column;
@@ -211,7 +211,7 @@
     height: 35rem;
     background: yellow;
   }
-}
+} */
 .top-Projects p {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -266,4 +266,46 @@
 .change-color {
   filter: invert(90%) sepia(63%) saturate(972%) hue-rotate(4deg) brightness(98%)
     contrast(83%);
+}
+
+/* small device */
+@media screen and (max-width: 768px) {
+  .img-1,
+  .img-2,
+  .img-3,
+  .top_left .img-1,
+  .top_left .img-2,
+  .top_left .img-3 {
+    animation: none;
+  }
+  .img-2,
+  .img-3,
+  .top_left .img-2,
+  .top_left .img-3 {
+    display: none;
+  }
+
+  .top-Projects,
+  .top_left > .top-Projects {
+    width: 95%;
+    padding: 0;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .top-Projects > div:first-child {
+    width: 90%;
+  }
+
+  .card {
+    position: unset;
+    width: 100%;
+  }
+
+  .project-imges {
+    /* position: relative; */
+    width: 95%;
+    height: auto;
+  }
 }
