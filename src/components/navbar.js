@@ -13,14 +13,19 @@ function Navbar() {
           style={{ borderRadius: "50%" }}
         />
       </div>
-      <div className="menu_toggle" onClick={settoggle(!toggle)}>
+      <div
+        className="menu_toggle"
+        onClick={() => {
+          settoggle(!toggle);
+        }}
+      >
         <img
           src="https://cdn2.iconfinder.com/data/icons/flat-and-simple-part-2/128/menu-512.png"
           width="50px"
           height="50px"
         />
       </div>
-      <div className="right--nav">
+      <div className={toggle ? "small_nav right--nav" : "right--nav"}>
         <div className="active">
           <a href="#top">Home</a>
         </div>
