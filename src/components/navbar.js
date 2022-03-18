@@ -1,5 +1,7 @@
 import "../App.css";
+import { useState } from "react";
 function Navbar() {
+  const [toggle, settoggle] = useState(false);
   return (
     <div className="navbar">
       <div className="logo">
@@ -9,6 +11,13 @@ function Navbar() {
           height="50px"
           alt=""
           style={{ borderRadius: "50%" }}
+        />
+      </div>
+      <div className="menu_toggle" onClick={settoggle(!toggle)}>
+        <img
+          src="https://cdn2.iconfinder.com/data/icons/flat-and-simple-part-2/128/menu-512.png"
+          width="50px"
+          height="50px"
         />
       </div>
       <div className="right--nav">

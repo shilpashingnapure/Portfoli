@@ -69,7 +69,7 @@
 
 /* about Small Screen */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
   .stack {
     flex-direction: column;
     width: 100%;

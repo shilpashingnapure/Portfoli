@@ -113,8 +113,13 @@ textarea {
   color: #fff;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
   .form {
     width: 90%;
+    height: 35rem;
+  }
+
+  .form-side {
+    height: 35rem;
   }
 }

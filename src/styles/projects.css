@@ -50,9 +50,9 @@
   position: absolute;
   z-index: 55;
   top: 40%;
-  right: 30px;
-  width: 60px;
-  height: 60px;
+  right: 3rem;
+  width: 6rem;
+  height: 6rem;
   border: none;
   background-color: transparent;
   cursor: pointer;
@@ -358,4 +358,41 @@
   color: #000;
   padding: 0.2rem 0.8rem;
   height: 4rem;
+}
+
+@media screen and (max-width: 950px) {
+  .silde-div > div:hover {
+    outline: none;
+  }
+
+  .slider-div .slick-slider .next-arrow {
+    right: 2rem !important;
+  }
+  .slider-div .slick-slider .prev-arrow {
+    left: 2rem !important;
+  }
+
+  .silde-div > div {
+    width: 80%;
+    margin: auto;
+  }
+
+  .project_div {
+    height: auto;
+  }
+
+  .project-detail {
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+  }
+  .project-detail--img {
+    height: 30vh;
+    margin-bottom: 0.8rem;
+  }
+
+  .project-detail--img img {
+    height: 30vh;
+    object-fit: contain;
+  }
 }
