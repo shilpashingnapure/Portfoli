@@ -105,7 +105,7 @@ function Footer() {
           </span>
         </div>
         <div className="credit">
-          <span>Made by</span>
+          <span>Designed & Built by</span>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png"
             alt=""
@@ -113,6 +113,9 @@ function Footer() {
             height="25px"
           />
           <span>Shilpa Shingnapure</span>
+        </div>
+        <div className="credit" style={{ color: "#00ffbb" }}>
+          <span>&copy; 2022</span>
         </div>
         <div className="topDiv">
           <a href="#top">

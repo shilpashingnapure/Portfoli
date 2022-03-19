@@ -37,7 +37,7 @@ function Toproject({ projectdata, description, techStack, imges }) {
           </div>
           <div className="btn--live">
             <a
-              href="https://shilpashingnapure.github.io/forestessentialsindia/"
+              href="https://github.com/shilpashingnapure/forestessentialsindia"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -50,7 +50,7 @@ function Toproject({ projectdata, description, techStack, imges }) {
           </div>
           <div className="btn--live">
             <a
-              href="https://shilpashingnapure.github.io/forestessentialsindia/"
+              href="https://player.vimeo.com/video/689858253?h=1744dc5262"
               target="_blank"
               rel="noopener noreferrer"
             >

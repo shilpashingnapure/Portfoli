@@ -33,13 +33,14 @@ function App() {
           <Toproject
             projectdata={"Forest Essentials India Clone"}
             description={
-              "Forest Essentials is an Indian cosmetics, skincare and perfume company that specialises in Ayurvedic preparations for its products. Our project we implement front-end only. Additionally we use rapidapi to fetch the products. Team of 6 Members. "
+              "Forest Essentials is an Indian cosmetics, skincare and perfume company that specialises in Ayurvedic preparations for its products. We implement front-end only. Additionally we use rapidapi to fetch the products. we are 2nd rank holder amongst 100+ projects. Team of 6 Members. "
             }
             techStack={[
               // "tech/html5.svg", "tech/css3.svg", "tech/js.svg"
               "tech/html_img.png",
               "tech/css.png",
               "tech/js.jpg",
+              "tech/rapidapi.png",
             ]}
             imges={["forest.gif", "forest1.PNG", "forest3.png"]}
           />
@@ -48,7 +49,7 @@ function App() {
           <Toproject
             projectdata={"Theory Clone"}
             description={
-              "New York fashion brand “Theory” is based on women’s and men’s contemporary fashion label. We tried to implement E-commerce functionalities product database, Add to cart, search, Authorization, Payment, OTP verification using Gmail API, etc. Team of 5 members."
+              "New York fashion brand “Theory” is based on women’s and men’s contemporary fashion label. We tried to implement E-commerce functionalities product database, Add to cart, search, Authorization, Payment, OTP verification using Gmail API, etc. Won 1 rank amongst 70+ projects. Team of 5 members."
             }
             techStack={[
               "tech/html_img.png",

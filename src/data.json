@@ -9,7 +9,8 @@
     "tech_stack": ["tech/html_img.png", "tech/css.png"],
     "project_title": "You Tube Clone",
     "project_live": "https://shilpashingnapure.github.io/youtube-clone/",
-    "projectDetails": "Clone of you tube where user can see videos"
+    "project_github": "https://github.com/shilpashingnapure/youtube-clone",
+    "projectDetails": "Clone of youtube.com using youtube API where user can watch and search videos."
   },
   {
     "project_id": "project2",
@@ -21,15 +22,17 @@
     "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
     "project_title": "Github Clone",
     "project_live": "https://shilpashingnapure.github.io/Github-clone/",
-    "projectDetails": "Clone of github where user can see videos"
+    "project_github": "https://github.com/shilpashingnapure/github-clone",
+    "projectDetails": "Clone of github.com using Github API user can search their profiles & Authorization."
   },
   {
     "project_id": "project3",
     "images": ["projects/disqus1.JPG", "projects/disqus2.JPG"],
     "tech_stack": ["tech/html_img.png", "tech/css.png"],
     "project_title": "Disqus Clone",
-    "project_live": "http://disqus.epizy.com/",
-    "projectDetails": "Clone of github where user can see videos"
+    "project_live": "https://shilpashingnapure.github.io/Disqus-Clone/",
+    "project_github": "https://github.com/shilpashingnapure/Disqus-Clone",
+    "projectDetails": "Clone of Disqus.com i try to make simple frontend & resposive website."
   },
   {
     "project_id": "project4",
@@ -41,7 +44,8 @@
     "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
     "project_title": "Food Recipe App",
     "project_live": "https://shilpashingnapure.github.io/Simple-recipe-Website/",
-    "projectDetails": "Clone of github where user can see videos"
+    "project_github": "https://github.com/shilpashingnapure/Simple-recipe-Website",
+    "projectDetails": "Using themealdb API i try to make where user can search any type of food recepie and user friendly steps to understand."
   },
   {
     "project_id": "project5",
@@ -49,7 +53,8 @@
     "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
     "project_title": "Weather App",
     "project_live": "https://shilpashingnapure.github.io/simple-wheather-app/",
-    "projectDetails": "Clone of github where user can see videos"
+    "project_github": "https://github.com/shilpashingnapure/simple-wheather-app",
+    "projectDetails": "It's Simple Weather APP using openweathermap API we can find any place temp, Map & coming forecast of weather."
   },
   {
     "project_id": "project6",
@@ -62,7 +67,8 @@
     ],
     "project_title": "Codepen Clone",
     "project_live": "https://pencode.netlify.app/",
-    "projectDetails": "Clone of github where user can see videos"
+    "project_github": "https://github.com/shilpashingnapure/codepen-clone",
+    "projectDetails": "Clone of codepen.io here user can write html, css & Js code"
   },
   {
     "project_id": "project7",
@@ -74,7 +80,8 @@
     "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
     "project_title": "Movie Search App",
     "project_live": "https://shilpashingnapure.github.io/movie-search-app/",
-    "projectDetails": "Clone of github where user can see videos"
+    "project_github": "https://github.com/shilpashingnapure/movie-search-app",
+    "projectDetails": "Movie Rating APP using themoviedb API we can search any movie. find information about movie release date, Imdb rating, etc."
   },
   {
     "project_id": "project8",
@@ -91,7 +98,8 @@
       "react-logo.svg"
     ],
     "project_live": "https://tommyhilfigerclone.netlify.app/",
-    "projectDetails": "Clone of github where user can see videos"
+    "project_github": "https://github.com/shilpashingnapure/Tommy-Hilfiger-clone",
+    "projectDetails": "Clone of TommyHilfiger.com i work on frontend & animation to gain more experience on Css & React."
   },
   {
     "project_id": "project9",
@@ -103,6 +111,7 @@
     "tech_stack": ["tech/html_img.png", "tech/css.png", "tech/js.jpg"],
     "project_title": "McDonald's App",
     "project_live": "https://shilpashingnapure.github.io/mc-donalds/",
-    "projectDetails": "Clone of github where user can see videos"
+    "project_github": "https://github.com/shilpashingnapure/mc-donalds",
+    "projectDetails": "McDonald's order booking simple app."
   }
 ]

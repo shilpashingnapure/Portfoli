@@ -200,6 +200,11 @@
   border: 1px solid #00ffbb;
 }
 
+.small_btn {
+  display: flex;
+  gap: 1rem;
+}
+
 .projectName {
   font-size: 3rem;
   display: flex;
@@ -317,11 +322,13 @@
 .project-detail--description {
   padding: 2rem;
   border-top: 3px solid #1b242f;
-  line-height: 4rem;
+  line-height: 3rem;
+  margin-top: 1rem;
 }
-/* .project-detail--description p {
-  height: 10rem;
-} */
+.project-detail--description p {
+  margin-top: 1rem;
+  height: 7rem;
+}
 .project-detail--description > div {
   display: flex;
   justify-content: space-between;
@@ -330,7 +337,7 @@
 
 .project-detail--description button {
   padding: 0.2rem 2rem;
-  /* background-color: transparent; */
+  background-color: transparent;
   display: inline-block;
   border: none;
   color: #fff;
@@ -344,8 +351,8 @@
 }
 
 .close--btn img {
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
   object-fit: contain;
 }
 

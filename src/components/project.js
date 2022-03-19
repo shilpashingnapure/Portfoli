@@ -113,7 +113,7 @@ function Projects() {
             </div>
             <div className="project-detail--description">
               <h1>{projectData.project_title}</h1>
-              <h3>project related to</h3>
+              {/* <h3>project related to</h3> */}
               <hr />
               <p>{projectData.projectDetails}</p>
               {projectData.tech_stack.map((img) => {
@@ -128,22 +128,36 @@ function Projects() {
                 );
               })}
               <div>
-                <a
-                  href={projectData.project_live}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src="https://www.svgrepo.com/show/379221/open-in-new.svg"
-                    alt=""
-                  />
-                  <span>Visit Site</span>
-                </a>
-
+                <div className="small_btn">
+                  <a
+                    href={projectData.project_live}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://www.svgrepo.com/show/379221/open-in-new.svg"
+                      alt=""
+                    />
+                    <span>Visit Site</span>
+                  </a>
+                  <a
+                    href={projectData.project_github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://www.svgrepo.com/show/325236/github.svg"
+                      alt=""
+                    />
+                    <span>Github</span>
+                  </a>
+                </div>
                 <button onClick={() => setitem(null)} className="close--btn">
                   <img
-                    src="https://w7.pngwing.com/pngs/114/546/png-transparent-fish-pie-pie-chart-computer-icons-css-miscellaneous-logo-pie.png"
+                    src="https://www.svgrepo.com/show/274372/close.svg"
                     alt=""
+                    width="10"
+                    height="10"
                   />
                 </button>
               </div>
