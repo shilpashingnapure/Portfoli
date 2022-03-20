@@ -2,25 +2,19 @@ function Header() {
   return (
     <div className="header">
       <div className="header--div1">
-        <p className="header-hi" data-aos={"fade-left"}>
-          Hi there{" "}
-        </p>
-        <h1 className="header--name" data-aos={"fade-right"}>
-          Shilpa Shingnapure
-        </h1>
-        <h3 className="header--work" data-aos={"fade-left"}>
-          FULL STACK WEB DEVELOPER{" "}
-        </h3>
-        <p data-aos={"zoom-in"}>
+        <p className="header-hi fadeLeft">Hi there </p>
+        <h1 className="header--name fadeRight">Shilpa Shingnapure</h1>
+        <h3 className="header--work fadeLeft">FULL STACK WEB DEVELOPER </h3>
+        <p className="fadeRight">
           I’m a MERN stack developer with the
           <br />
           development skills based in Mumbai.
         </p>
-        <button className="btn">
+        <button className="btn fadeLeft">
           <a href="#contact">Contact me</a>
         </button>
       </div>
-      <div className="avtar_img" data-aos={"zoom-in"}>
+      <div className="avtar_img zoomIn">
         {/* <img src={img} alt="" /> */}
         <iframe
           height="300"

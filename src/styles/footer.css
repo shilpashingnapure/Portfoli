@@ -66,7 +66,7 @@
 
 @media screen and (max-width: 768px) {
   .footer__div {
-    height: 20vh;
+    height: auto;
   }
 
   .topDiv {
