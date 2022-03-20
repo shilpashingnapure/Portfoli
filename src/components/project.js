@@ -120,8 +120,8 @@ function Projects() {
                 return (
                   <img
                     src={require("../img/" + img)}
-                    width="25px"
-                    height="25px"
+                    width="30px"
+                    height="30px"
                     alt=""
                     className="change-color"
                   />

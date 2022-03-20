@@ -94,7 +94,7 @@ function App() {
         </div> */}
         <div
           className="stack-header"
-          style={{ marginBottom: "35px" }}
+          style={{ marginBottom: "45px" }}
           data-aos={"fade-right"}
         >
           <p className="highlight">Mini Project's</p>
