@@ -34,7 +34,7 @@ function Form() {
     });
   }
   return (
-    <div className={turn ? "form form-face" : "form"} data-aos={"flip-up"}>
+    <div className={turn ? "form form-face" : "form"}>
       <div className="form-side form-front">
         <form id="form1" onSubmit={submitEmail}>
           <label>Name:</label>

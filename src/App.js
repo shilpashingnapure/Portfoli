@@ -13,8 +13,9 @@ import Footer from "./components/footer";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 1000,
+      duration: 2000,
     });
+    AOS.refresh();
   }, []);
   return (
     <div id="top">
@@ -95,7 +96,7 @@ function App() {
         >
           <p className="highlight">Mini Project's</p>
         </div>
-        <div className="project_div" data-aos={"zoom-in-down"}>
+        <div className="project_div">
           <Projects />
         </div>
       </div>
