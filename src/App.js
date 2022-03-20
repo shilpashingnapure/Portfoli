@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./App.css";
 import Navbar from "./components/navbar.js";
 import Header from "./components/header.js";
@@ -6,13 +9,19 @@ import TechStack from "./components/techstack";
 import Toproject from "./components/topProject";
 import Projects from "./components/project";
 import Footer from "./components/footer";
+
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
   return (
     <div id="top">
       <Navbar />
       <Header />
 
-      <div id="about" style={{ height: "15vh" }}>
+      <div id="about" data-aos={"fade-left"} style={{ height: "15vh" }}>
         <div className="stack-header">
           <p className="highlight">To Know</p>
           <h2 className="head">About me</h2>
@@ -25,11 +34,11 @@ function App() {
 
       <div id="projects" style={{ height: "15vh" }}></div>
       <div>
-        <div className="stack-header">
+        <div className="stack-header" data-aos={"zoom-in-down"}>
           <p className="highlight">My projects</p>
           <h2 className="head">Top Project</h2>
         </div>
-        <div className="top_right mt">
+        <div className="top_right mt" data-aos={"flip-left"}>
           <Toproject
             projectdata={"Forest Essentials India Clone"}
             description={
@@ -40,12 +49,16 @@ function App() {
               "tech/html_img.png",
               "tech/css.png",
               "tech/js.jpg",
-              "tech/rapidapi.png",
             ]}
             imges={["forest.gif", "forest1.PNG", "forest3.png"]}
+            links={[
+              "https://shilpashingnapure.github.io/forestessentialsindia/",
+              "https://github.com/shilpashingnapure/forestessentialsindia",
+              "https://player.vimeo.com/video/689858253?h=1744dc5262",
+            ]}
           />
         </div>
-        <div className="top_left">
+        <div className="top_left" data-aos={"flip-right"}>
           <Toproject
             projectdata={"Theory Clone"}
             description={
@@ -61,6 +74,11 @@ function App() {
               "tech/postman.png",
             ]}
             imges={["theory1.png", "theory2.png", "theory3.png"]}
+            links={[
+              "https://github.com/shilpashingnapure/Backened_Of_Theory_Clone",
+              "https://github.com/shilpashingnapure/Backened_Of_Theory_Clone",
+              "https://player.vimeo.com/video/689858338?h=1e538fdf27",
+            ]}
           />
         </div>
 
@@ -70,10 +88,14 @@ function App() {
             imges={["forest.gif", "1.PNG", "profile.jpg"]}
           />
         </div> */}
-        <div className="stack-header" style={{ marginBottom: "35px" }}>
+        <div
+          className="stack-header"
+          style={{ marginBottom: "35px" }}
+          data-aos={"fade-right"}
+        >
           <p className="highlight">Mini Project's</p>
         </div>
-        <div className="project_div">
+        <div className="project_div" data-aos={"zoom-in-down"}>
           <Projects />
         </div>
       </div>

@@ -25,6 +25,7 @@ function Navbar() {
           src="https://cdn2.iconfinder.com/data/icons/flat-and-simple-part-2/128/menu-512.png"
           width="50px"
           height="50px"
+          alt=""
         />
       </div>
       <div
@@ -69,7 +70,13 @@ function Navbar() {
           <a href="#contact">Contact Me</a>
         </div>
         <div className="cv">
-          <a href="">Resume</a>
+          <a
+            href="https://drive.google.com/file/d/17AByO1545-TnIMOemdyTK63KudDQ-4aY/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </div>

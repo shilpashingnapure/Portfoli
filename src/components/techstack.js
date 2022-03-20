@@ -8,7 +8,7 @@ function TechStack() {
         <h2 className="head">Teach Stack</h2>
       </div>
       <div className="stack">
-        <div className="front-back">
+        <div className="front-back" data-aos={"fade-right"}>
           <h2>Frontend / Backend</h2>
           <div className="tech-list">
             <div>
@@ -55,7 +55,7 @@ function TechStack() {
             </div>
           </div>
         </div>
-        <div className="lib-fram">
+        <div className="lib-fram" data-aos={"fade-left"}>
           <h2>Framework / Tools</h2>
           <div className="tech-list">
             <div>

@@ -1,7 +1,7 @@
 import "../styles/about.css";
 function About() {
   return (
-    <div className="container">
+    <div className="container" data-aos={"fade-right"}>
       <div className="container__image">
         <div className="container__info container__author">
           Hi There!,

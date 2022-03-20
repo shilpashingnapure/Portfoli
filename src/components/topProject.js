@@ -1,6 +1,6 @@
 import "../styles/topProject.css";
 import play from "../img/play.svg";
-function Toproject({ projectdata, description, techStack, imges }) {
+function Toproject({ projectdata, description, techStack, imges, links }) {
   return (
     <div className="top-Projects">
       <div>
@@ -23,11 +23,7 @@ function Toproject({ projectdata, description, techStack, imges }) {
         </div>
         <div>
           <div className="btn--live">
-            <a
-              href="https://shilpashingnapure.github.io/forestessentialsindia/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={links[0]} target="_blank" rel="noopener noreferrer">
               <img
                 src="https://www.svgrepo.com/show/379221/open-in-new.svg"
                 alt=""
@@ -36,11 +32,7 @@ function Toproject({ projectdata, description, techStack, imges }) {
             </a>
           </div>
           <div className="btn--live">
-            <a
-              href="https://github.com/shilpashingnapure/forestessentialsindia"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={links[1]} target="_blank" rel="noopener noreferrer">
               <img
                 src="https://www.svgrepo.com/show/325236/github.svg"
                 alt=""
@@ -49,11 +41,7 @@ function Toproject({ projectdata, description, techStack, imges }) {
             </a>
           </div>
           <div className="btn--live">
-            <a
-              href="https://player.vimeo.com/video/689858253?h=1744dc5262"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={links[2]} target="_blank" rel="noopener noreferrer">
               <img src={play} alt="" />
               <span>Demo</span>
             </a>
