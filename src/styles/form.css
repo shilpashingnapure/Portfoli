@@ -111,6 +111,11 @@ textarea {
   border-radius: 4px;
   margin-bottom: 3rem;
   color: #fff;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
 }
 
 @media screen and (max-width: 768px) {
