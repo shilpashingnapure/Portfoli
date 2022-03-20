@@ -11,7 +11,9 @@ function Header() {
           development skills based in Mumbai.
         </p>
         <button className="btn fadeLeft">
-          <a href="#contact">Contact me</a>
+          <a href="#contact" style={{ color: "#000" }}>
+            Contact me
+          </a>
         </button>
       </div>
       <div className="avtar_img zoomIn">

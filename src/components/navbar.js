@@ -74,6 +74,7 @@ function Navbar() {
             href="https://drive.google.com/file/d/17AByO1545-TnIMOemdyTK63KudDQ-4aY/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
+            style={{ color: "#000" }}
           >
             Resume
           </a>
