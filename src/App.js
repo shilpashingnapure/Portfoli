@@ -14,7 +14,7 @@ import Footer from "./components/footer";
 function App() {
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 3000,
     });
     setTimeout(function () {
       AOS.refresh();
@@ -38,11 +38,11 @@ function App() {
 
       <div id="projects" style={{ height: "15vh" }}></div>
       <div>
-        <div className="stack-header" data-aos={"zoom-in-down"}>
+        <div className="stack-header" data-aos={"zoom-in"}>
           <p className="highlight">My projects</p>
           <h2 className="head">Top Project</h2>
         </div>
-        <div className="top_right mt" data-aos={"flip-left"}>
+        <div className="top_right mt" data-aos={"zoom-in-down"}>
           <Toproject
             projectdata={"Forest Essentials India Clone"}
             description={
@@ -62,7 +62,7 @@ function App() {
             ]}
           />
         </div>
-        <div className="top_left" data-aos={"flip-right"}>
+        <div className="top_left" data-aos={"zoom-in-up"}>
           <Toproject
             projectdata={"Theory Clone"}
             description={
