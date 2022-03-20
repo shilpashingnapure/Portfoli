@@ -16,7 +16,9 @@ function Header() {
           <br />
           development skills based in Mumbai.
         </p>
-        <button className="btn">Contact me</button>
+        <button className="btn">
+          <a href="#contact">Contact me</a>
+        </button>
       </div>
       <div className="avtar_img" data-aos={"zoom-in"}>
         {/* <img src={img} alt="" /> */}
