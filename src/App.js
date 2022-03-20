@@ -15,7 +15,9 @@ function App() {
     AOS.init({
       duration: 2000,
     });
-    AOS.refreshHard();
+    setTimeout(function () {
+      AOS.refresh();
+    }, 500);
   }, []);
   return (
     <div id="top">
