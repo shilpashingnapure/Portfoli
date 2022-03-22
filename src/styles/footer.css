@@ -2,6 +2,7 @@
   /* border: 1px solid #fff; */
   width: 100%;
   margin-top: 3rem;
+  transition: all 1s ease;
 }
 
 .footer__div {
@@ -23,11 +24,22 @@
   align-items: center;
   gap: 0.6rem;
   margin-bottom: 0;
+  height: 10vh;
 }
 
 .footer__div span {
   /* border: 1px solid #fff; */
   padding: 1.5rem;
+  text-align: center;
+  transition: all 0.5s linear;
+}
+
+.footer__div span p {
+  display: none;
+}
+
+.footer__div span:hover p {
+  display: block;
 }
 
 /* go to top button*/

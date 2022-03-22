@@ -24,6 +24,7 @@ function Footer() {
                 height="30px"
                 alt=""
               />
+              <p>Linkedin</p>
             </a>
           </span>
           <span>
@@ -39,6 +40,7 @@ function Footer() {
                 alt=""
                 className="change-my-color"
               />
+              <p>Github</p>
             </a>
           </span>
           <span>
@@ -55,6 +57,7 @@ function Footer() {
                 height="30px"
                 alt=""
               />
+              <p>Hackerrank</p>
             </a>
           </span>
           <span>
@@ -70,6 +73,7 @@ function Footer() {
                 height="30px"
                 alt=""
               />
+              <p>Leetcode</p>
             </a>
           </span>
 
@@ -86,6 +90,7 @@ function Footer() {
                 height="30px"
                 alt=""
               />
+              <p>Css Battle</p>
             </a>
           </span>
           <span>
@@ -101,6 +106,7 @@ function Footer() {
                 height="30px"
                 alt=""
               />
+              <p>Codepen</p>
             </a>
           </span>
         </div>
