@@ -32,6 +32,7 @@ function Form() {
       email: "",
       message: "",
     });
+    setturn(!turn);
   }
   return (
     <div className={turn ? "form form-face" : "form"}>
