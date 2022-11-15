@@ -121,6 +121,7 @@ iframe {
 .header--name {
   font-size: 7.2rem;
   line-height: 8rem;
+  padding-right: 7px;
 }
 
 .header--work {

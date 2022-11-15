@@ -43,24 +43,27 @@ function App() {
           <h2 className="head">Top Project</h2>
         </div>
         <div className="top_right mt" data-aos={"zoom-in-down"}>
-          <Toproject
-            projectdata={"Forest Essentials India Clone"}
+        <Toproject
+            projectdata={"Mailchimp Clone"}
             description={
-              "Forest Essentials is an Indian cosmetics, skincare and perfume company that specialises in Ayurvedic preparations for its products. We implement basic e-commarce all functionalites. buy prodcuts ,add to cart , payment getway,search funtionalites etc. we are 2nd rank holder amongst 100+ projects. Team of 6 Members. "
+              "Mailchimp is a marketing automation platform and email marketing service. we tried to implement the features are create new email and customize existing email templates, Send templates through email and keep records of email sending, Can do email marking to multiple users. Team of 6 Members."
             }
             techStack={[
               // "tech/html5.svg", "tech/css3.svg", "tech/js.svg"
-              "tech/html_img.png",
-              "tech/css.png",
-              "tech/js.jpg",
+              "tech/react-logo.svg",
+              "tech/node.webp",
+              "tech/express.png",
+              "tech/mongo.png",
+
             ]}
-            imges={["forest.gif", "forest1.PNG", "forest3.png"]}
+            imges={["mailchimp1.PNG", "mailchimp2.PNG", "mailchimp3.PNG"]}
             links={[
-              "https://shilpashingnapure.github.io/forestessentialsindia/",
-              "https://github.com/shilpashingnapure/forestessentialsindia",
-              "https://player.vimeo.com/video/689858253?h=1744dc5262",
+              "https://mailchimp-frontend.vercel.app/",
+              "https://github.com/shilpashingnapure/Clone-of-Mailchimp",
+              "https://player.vimeo.com/video/756101155?h=e6e013b7d8",
             ]}
           />
+
         </div>
         <div className="top_left" data-aos={"zoom-in-up"}>
           <Toproject
@@ -87,24 +90,22 @@ function App() {
         </div>
 
         <div className="top_right mt" data-aos={"zoom-in-down"}>
-          <Toproject
-            projectdata={"Mailchimp Clone"}
+        <Toproject
+            projectdata={"Forest Essentials India Clone"}
             description={
-              "Mailchimp is a marketing automation platform and email marketing service. we tried to implement the features are create new email and customize existing email templates, Send templates through email and keep records of email sending, Can do email marking to multiple users. Team of 6 Members."
+              "Forest Essentials is an Indian cosmetics, skincare and perfume company that specialize in Ayurvedic preparations for its products. We implement basic e-commarce all functionalites. buy products ,add to cart , payment getway funtionalites etc. we are 2nd rank holder amongst 100+ projects. Team of 6 Members. "
             }
             techStack={[
               // "tech/html5.svg", "tech/css3.svg", "tech/js.svg"
-              "tech/react-logo.svg",
-              "tech/node.webp",
-              "tech/express.png",
-              "tech/mongo.png",
-
+              "tech/html_img.png",
+              "tech/css.png",
+              "tech/js.jpg",
             ]}
-            imges={["mailchimp1.PNG", "mailchimp2.PNG", "mailchimp3.PNG"]}
+            imges={["forest.gif", "forest1.PNG", "forest3.png"]}
             links={[
-              "https://mailchimp-frontend.vercel.app/",
-              "https://github.com/shilpashingnapure/Clone-of-Mailchimp",
-              "https://player.vimeo.com/video/756101155?h=e6e013b7d8",
+              "https://shilpashingnapure.github.io/forestessentialsindia/",
+              "https://github.com/shilpashingnapure/forestessentialsindia",
+              "https://player.vimeo.com/video/689858253?h=1744dc5262",
             ]}
           />
         </div>
