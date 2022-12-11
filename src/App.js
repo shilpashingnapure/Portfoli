@@ -82,7 +82,7 @@ function App() {
             ]}
             imges={["theory1.png", "theory2.png", "theory3.png"]}
             links={[
-              "https://backend-theory.herokuapp.com/",
+              "https://theroybackend.onrender.com/",
               "https://github.com/shilpashingnapure/Theory_Clone-Backend",
               "https://player.vimeo.com/video/689858338?h=1e538fdf27",
             ]}
