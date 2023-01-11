@@ -205,6 +205,11 @@
   gap: 1rem;
 }
 
+.small_btn img{
+  width:25px;
+  height:25px;
+}
+
 .projectName {
   font-size: 3rem;
   display: flex;
@@ -256,13 +261,14 @@
   z-index: 999;
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
 }
 .project-detail {
   width: 50%;
-  height: 95vh;
   margin: auto;
-  margin-top: 1%;
+  margin-top: 3%;
   border-radius: 3px;
+
   /* border: 1px solid #fff; */
   background-color: #fbfbfb;
   color: #333;
