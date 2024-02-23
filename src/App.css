@@ -70,6 +70,102 @@ body {
   display: none;
 }
 
+.btns{
+  display: flex;
+  gap:15px;
+}
+
+
+
+
+.portfolio-btn {
+  border: none;
+  padding: 1.5rem 2.5rem;
+  margin-top: 2rem;
+  text-transform: uppercase;
+  position: relative;
+  background: transparent;
+  color: #ffa500;
+  border: 3px solid #ffa500;
+  cursor: pointer;
+  transition: all 0.7s;
+  overflow: hidden;
+  /* border-radius: 100px; */
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.portfolio-btn a{
+  color: #ffa500;
+}
+
+.portfolio-btn:hover a{
+  color: #000;
+}
+.portfolio-btn span {
+  transition: all 0.7s;
+  z-index: -1;
+}
+
+.portfolio-btn .first {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: 25%;
+  height: 100%;
+  background: #ffa500;
+}
+
+.portfolio-btn:hover .first {
+  top: 0;
+  right: 0;
+}
+.portfolio-btn .second {
+  content: "";
+  position: absolute;
+  left: 25%;
+  top: -100%;
+  height: 100%;
+  width: 25%;
+  background: #ffa500;
+}
+
+.portfolio-btn:hover .second {
+  top: 0;
+  left: 50%;
+}
+
+.portfolio-btn .third {
+  content: "";
+  position: absolute;
+  left: 50%;
+  height: 100%;
+  top: 100%;
+  width: 25%;
+  background: #ffa500;
+}
+
+.portfolio-btn:hover .third {
+  top: 0;
+  left: 25%;
+}
+
+.portfolio-btn .fourth {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  height: 100%;
+  width: 25%;
+  background: #ffa500;
+}
+
+.portfolio-btn:hover .fourth {
+  top: 0;
+  left: 0;
+}
+
+
 /* big size screen */
 @media screen and (min-width: 2560px) {
   .right--nav {
@@ -129,6 +225,8 @@ iframe {
   color: #00ffbb;
   margin: 2rem 0;
 }
+
+
 
 .btn {
   padding: 1.5rem 1rem;
@@ -224,5 +322,10 @@ iframe {
     position: fixed;
     top: 0;
     width: 100%;
+  }
+  .btns{
+    flex-direction: column;
+    gap:1px;
+    align-items: center;
   }
 }

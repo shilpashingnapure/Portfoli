@@ -10,11 +10,26 @@ function Header() {
           <br />
           development skills based in Mumbai.
         </p>
-        <button className="btn fadeLeft">
-          <a href="#contact" style={{ color: "#000" }}>
-            Contact me
-          </a>
-        </button>
+        <div className="btns">
+          <button className="btn fadeLeft">
+            <a href="#contact" style={{ color: "#000" }}>
+              Contact me
+            </a>
+          </button>
+          <button className="portfolio-btn fadeLeft">
+            <a
+              href="https://shilpa-new-portfolio.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Updated Portfolio
+            </a>
+            <span className="first"></span>
+            <span className="second"></span>
+            <span className="third"></span>
+            <span className="fourth"></span>
+          </button>
+        </div>
       </div>
       <div className="avtar_img zoomIn">
         {/* <img src={img} alt="" /> */}
